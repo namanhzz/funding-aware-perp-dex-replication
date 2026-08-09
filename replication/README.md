@@ -1,7 +1,7 @@
 # Replication materials
 
 This folder is the self-contained public replication package for
-“Funding-aware optimal market making on a perpetual DEX.” It contains the
+“Funding-aware optimal market making for perpetual DEXs.” It contains the
 tracked empirical inputs needed for the reported evaluation, the model and
 simulation code, frozen configurations, tests, and complete seed-level output
 files.

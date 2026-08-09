@@ -1,8 +1,8 @@
 # Funding-aware market-making replication package
 
 This public repository contains the data, code, frozen configurations, and
-seed-level results used in **“Funding-aware optimal market making on a
-perpetual DEX”** by Nam Anh Le.
+seed-level results used in **“Funding-aware optimal market making for
+perpetual DEXs”** by Nam Anh Le.
 
 All research materials are grouped in the single [`replication/`](replication/)
 folder. See [`replication/README.md`](replication/README.md) for the exact
