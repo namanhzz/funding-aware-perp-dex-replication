@@ -1,0 +1,72 @@
+# Frozen before downloading or evaluating the 2026 final holdout.
+# All observations through 2025-12-31 are development data.
+design_frozen_utc: "2026-08-09"
+development_start_time: "2025-10-16T00:00:00Z"
+development_end_time: "2025-12-31T23:59:00Z"
+final_holdout_start_time: "2026-06-18T00:00:00Z"
+final_holdout_end_time: "2026-07-31T23:59:00Z"
+assets: [ETH, BTC, SOL]
+asset_base_configs:
+  ETH: configs/backtest_eth_hl_l2_holdout_model_variants.yaml
+  BTC: configs/backtest_btc_hl_l2_holdout_model_variants.yaml
+  SOL: configs/backtest_sol_hl_l2_holdout_model_variants.yaml
+holdout_price_source: "official Hyperliquid candleSnapshot"
+holdout_price_frequency: "15m"
+simulation_frequency: "1min"
+design_amendment: "Jan-Feb 1m L2 required unavailable requester-pays credentials; dates changed using availability only before inspecting strategy outcomes"
+selection_amendment: "AS penalty grid expanded using development results only, before final-holdout evaluation, because the original grid did not bracket the selected HJB inventory RMS"
+holdout_files:
+  ETH:
+    price_path: data/clean/eth-hyperliquid-candles-15m-final-20260618-20260731.parquet
+    funding_path: data/clean/eth-funding-1h-final-20260618-20260731.parquet
+  BTC:
+    price_path: data/clean/btc-hyperliquid-candles-15m-final-20260618-20260731.parquet
+    funding_path: data/clean/btc-funding-1h-final-20260618-20260731.parquet
+  SOL:
+    price_path: data/clean/sol-hyperliquid-candles-15m-final-20260618-20260731.parquet
+    funding_path: data/clean/sol-funding-1h-final-20260618-20260731.parquet
+
+selection:
+  seeds: [3, 7, 11, 19, 23]
+  hjb_rule: "maximize mean final equity subject to inventory RMS no greater than unscaled AS"
+  hjb_fallback_rule: "if no HJB candidate is feasible, select the lowest inventory RMS and break ties by mean final equity"
+  risk_matched_as_rule: "minimize absolute inventory-RMS gap to selected HJB; break ties by mean final equity"
+  hjb_grid:
+    terminal_penalty: [0.00025, 0.0005, 0.001, 0.002, 0.004]
+    running_penalty: [0.000025, 0.00005, 0.0001, 0.0002]
+  as_grid:
+    terminal_penalty: [0.0, 0.00005, 0.00025, 0.001, 0.008, 0.032, 0.128]
+    running_penalty: [0.0, 0.000005, 0.000025, 0.0001, 0.0004, 0.0016, 0.0064]
+  as_additional_candidates:
+    - {terminal_penalty: 0.012, running_penalty: 0.0016}
+    - {terminal_penalty: 0.016, running_penalty: 0.0}
+    - {terminal_penalty: 0.020, running_penalty: 0.0}
+    - {terminal_penalty: 0.5, running_penalty: 0.025}
+    - {terminal_penalty: 1.0, running_penalty: 0.1}
+    - {terminal_penalty: 2.0, running_penalty: 0.2}
+    - {terminal_penalty: 5.0, running_penalty: 0.5}
+    - {terminal_penalty: 10.0, running_penalty: 1.0}
+    - {terminal_penalty: 50.0, running_penalty: 5.0}
+    - {terminal_penalty: 100.0, running_penalty: 10.0}
+
+final_evaluation:
+  seeds: "1..100"
+  common_random_numbers: true
+  primary_fill_model: volume_minute
+  primary_maker_fee_rate: 0.00015
+  paired_delta_ci95: true
+  weekly_block_inference: true
+
+robustness:
+  alternative_fill_model: minute_hit
+  fee_rates: [0.0, 0.00015, -0.00001]
+  conservative_execution:
+    fill_probability_scale: 0.5
+    adverse_selection_bps: 0.5
+
+reporting:
+  normalize_by_turnover: true
+  report_fill_count: true
+  report_fees: true
+  report_paired_delta_ci95: true
+  report_nonoverlapping_week_results: true

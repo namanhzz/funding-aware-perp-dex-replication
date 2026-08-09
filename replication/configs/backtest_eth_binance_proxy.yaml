@@ -1,0 +1,16 @@
+coin: ETH
+price_path: data/clean/binance-ethusdt-mark-1m.parquet
+funding_path: data/clean/eth-funding-1h.parquet
+calibration_path: results/calibration-eth.json
+initial_cash: 0.0
+initial_inventory: 0.0
+inventory_limit: 10.0
+lambda_base: 6.0
+intensity_k: 90.0
+quote_size: 1.0
+tick_size: 0.01
+risk_aversion: 0.001
+terminal_penalty: 0.001
+running_penalty: 0.0001
+seed: 7
+

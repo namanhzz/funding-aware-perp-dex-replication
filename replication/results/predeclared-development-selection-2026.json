@@ -1,0 +1,3968 @@
+{
+  "assets": [
+    {
+      "as_candidates": [
+        {
+          "fill_rate": 0.43735955388750103,
+          "final_equity": 93101.97842179137,
+          "final_equity_std": 4933.89655023577,
+          "inventory_rms": 5.917601365087424,
+          "inventory_rms_std": 0.051406912021300946,
+          "net_pnl_bps_turnover": 3.8469917722751155,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36306.71467537347,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0",
+          "turnover": 242044764.5024898,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43679362561121443,
+          "final_equity": 85864.0673608178,
+          "final_equity_std": 7381.222151075097,
+          "inventory_rms": 5.98041360097924,
+          "inventory_rms_std": 0.04946195302604469,
+          "net_pnl_bps_turnover": 3.55190533700067,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36261.789299948796,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=5e-06",
+          "turnover": 241745261.99965867,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4374353267111043,
+          "final_equity": 91165.60042237457,
+          "final_equity_std": 2367.029397806458,
+          "inventory_rms": 5.859081826861101,
+          "inventory_rms_std": 0.0743376070429641,
+          "net_pnl_bps_turnover": 3.7653658358688107,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36315.42151590744,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=2.5e-05",
+          "turnover": 242102810.10604954,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43820963025229975,
+          "final_equity": 85398.42733253834,
+          "final_equity_std": 8628.155345770756,
+          "inventory_rms": 5.798958372690341,
+          "inventory_rms_std": 0.1142593084526682,
+          "net_pnl_bps_turnover": 3.521161356056288,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36380.05644512414,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0001",
+          "turnover": 242533709.634161,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43966115340444933,
+          "final_equity": 90022.91586721272,
+          "final_equity_std": 4686.590621376558,
+          "inventory_rms": 5.617753930437898,
+          "inventory_rms_std": 0.11951314826758237,
+          "net_pnl_bps_turnover": 3.700009243484813,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36498.630228784685,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0004",
+          "turnover": 243324201.5252312,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4437505179782863,
+          "final_equity": 87502.17102655416,
+          "final_equity_std": 3147.7105728984184,
+          "inventory_rms": 4.774844361075225,
+          "inventory_rms_std": 0.07040636845412512,
+          "net_pnl_bps_turnover": 3.5629332155487496,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36836.41493244848,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0016",
+          "turnover": 245576099.54965654,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.442689698447841,
+          "final_equity": 88793.52304844848,
+          "final_equity_std": 2153.431739221615,
+          "inventory_rms": 2.882008858466567,
+          "inventory_rms_std": 0.02334606410319446,
+          "net_pnl_bps_turnover": 3.624310608666756,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 36747.95971073503,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0064",
+          "turnover": 244986398.07156688,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43666575897138393,
+          "final_equity": 84532.89402768572,
+          "final_equity_std": 1784.4232565887467,
+          "inventory_rms": 5.958906804754173,
+          "inventory_rms_std": 0.08395147877190164,
+          "net_pnl_bps_turnover": 3.4978160278676294,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36252.024042573685,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0",
+          "turnover": 241680160.2838246,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43720208848845055,
+          "final_equity": 87798.99177312959,
+          "final_equity_std": 6657.119162675203,
+          "inventory_rms": 5.915489016949724,
+          "inventory_rms_std": 0.07467238746205032,
+          "net_pnl_bps_turnover": 3.6291462761779747,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36293.86552251606,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=5e-06",
+          "turnover": 241959103.48344046,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43735008228455063,
+          "final_equity": 83524.85515453969,
+          "final_equity_std": 4482.265224059503,
+          "inventory_rms": 5.879461206095877,
+          "inventory_rms_std": 0.10028818145698085,
+          "net_pnl_bps_turnover": 3.4508940234305343,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36310.82029388385,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=2.5e-05",
+          "turnover": 242072135.29255906,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4377774883676876,
+          "final_equity": 87069.45651610094,
+          "final_equity_std": 7403.740705380056,
+          "inventory_rms": 5.829276956307508,
+          "inventory_rms_std": 0.13865080539463423,
+          "net_pnl_bps_turnover": 3.594168918717709,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36346.91305910575,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0001",
+          "turnover": 242312753.7273717,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43951552750908685,
+          "final_equity": 83692.47446834718,
+          "final_equity_std": 4980.631576899552,
+          "inventory_rms": 5.612007999786568,
+          "inventory_rms_std": 0.04745176196806516,
+          "net_pnl_bps_turnover": 3.440924383237495,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36486.829341032324,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0004",
+          "turnover": 243245528.9402156,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4438393142559464,
+          "final_equity": 88348.95189637295,
+          "final_equity_std": 4860.209780945612,
+          "inventory_rms": 4.741591226460142,
+          "inventory_rms_std": 0.049651236485880275,
+          "net_pnl_bps_turnover": 3.596527404307582,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36844.02894233883,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0016",
+          "turnover": 245626859.61559224,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44268733054710346,
+          "final_equity": 88790.4438995739,
+          "final_equity_std": 2145.4425394684076,
+          "inventory_rms": 2.8803969003009184,
+          "inventory_rms_std": 0.023709723604707723,
+          "net_pnl_bps_turnover": 3.624203505261068,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 36747.77344830251,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0064",
+          "turnover": 244985156.3220168,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4375087316339699,
+          "final_equity": 83301.07404155997,
+          "final_equity_std": 4221.348801197626,
+          "inventory_rms": 5.887507213359579,
+          "inventory_rms_std": 0.08753003478840486,
+          "net_pnl_bps_turnover": 3.440422082825087,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36320.958842316766,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0",
+          "turnover": 242139725.61544514,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43719498478623775,
+          "final_equity": 84208.79293055713,
+          "final_equity_std": 7095.638407610629,
+          "inventory_rms": 5.901804201860652,
+          "inventory_rms_std": 0.07922506399336698,
+          "net_pnl_bps_turnover": 3.4799976190492847,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36296.07839721331,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=5e-06",
+          "turnover": 241973855.98142204,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4375312266909771,
+          "final_equity": 84678.88374555907,
+          "final_equity_std": 8911.242749186174,
+          "inventory_rms": 5.8730842157837655,
+          "inventory_rms_std": 0.1245949948155614,
+          "net_pnl_bps_turnover": 3.4980515298647767,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36323.38351884175,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=2.5e-05",
+          "turnover": 242155890.1256117,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43815398458496624,
+          "final_equity": 88392.88939204204,
+          "final_equity_std": 4365.58174393785,
+          "inventory_rms": 5.7938224367106494,
+          "inventory_rms_std": 0.09556149325074674,
+          "net_pnl_bps_turnover": 3.6448156207128064,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36375.384627638996,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0001",
+          "turnover": 242502564.18425998,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4394468583876964,
+          "final_equity": 87692.88615376994,
+          "final_equity_std": 8271.598408540072,
+          "inventory_rms": 5.649056589867748,
+          "inventory_rms_std": 0.07705794077973027,
+          "net_pnl_bps_turnover": 3.6065307562811157,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36477.51688943049,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0004",
+          "turnover": 243183445.92953664,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44373275872275436,
+          "final_equity": 90713.42394503982,
+          "final_equity_std": 2258.7081157370203,
+          "inventory_rms": 4.740944804323121,
+          "inventory_rms_std": 0.05673664062468276,
+          "net_pnl_bps_turnover": 3.693824678180325,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36835.700160110704,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0016",
+          "turnover": 245571334.40073806,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4426731231426778,
+          "final_equity": 88592.53242866315,
+          "final_equity_std": 2653.359473464527,
+          "inventory_rms": 2.8715984012775193,
+          "inventory_rms_std": 0.025216584125330312,
+          "net_pnl_bps_turnover": 3.616182874597971,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36746.56746467923,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0064",
+          "turnover": 244977116.43119487,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4383209215869671,
+          "final_equity": 84321.93999851622,
+          "final_equity_std": 5993.803095657716,
+          "inventory_rms": 5.7751206314610615,
+          "inventory_rms_std": 0.11265050981288662,
+          "net_pnl_bps_turnover": 3.4756930624915467,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36388.03415408502,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0",
+          "turnover": 242586894.3605668,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.43770645134555963,
+          "final_equity": 84590.30985837872,
+          "final_equity_std": 5653.409862715048,
+          "inventory_rms": 5.841862662228408,
+          "inventory_rms_std": 0.08069949161044344,
+          "net_pnl_bps_turnover": 3.4914187446819875,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36337.88366896021,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=5e-06",
+          "turnover": 242252557.79306808,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.438576654866628,
+          "final_equity": 88422.3595031903,
+          "final_equity_std": 3001.238091198826,
+          "inventory_rms": 5.745725923270723,
+          "inventory_rms_std": 0.07835368887571965,
+          "net_pnl_bps_turnover": 3.642916970762223,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36408.09516205327,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=2.5e-05",
+          "turnover": 242720634.4136885,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4388915856647289,
+          "final_equity": 84102.70817693653,
+          "final_equity_std": 6227.765328880138,
+          "inventory_rms": 5.716896386899469,
+          "inventory_rms_std": 0.026163599500657667,
+          "net_pnl_bps_turnover": 3.4624717459533523,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36434.9983548281,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0001",
+          "turnover": 242899989.03218737,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44046505570486494,
+          "final_equity": 88859.2811426938,
+          "final_equity_std": 3867.9793639306204,
+          "inventory_rms": 5.505520166583183,
+          "inventory_rms_std": 0.03676410073074426,
+          "net_pnl_bps_turnover": 3.6457234607799895,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36563.48256642,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0004",
+          "turnover": 243756550.44280005,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44423120182801934,
+          "final_equity": 89415.58482772301,
+          "final_equity_std": 5845.494454843743,
+          "inventory_rms": 4.614098955725167,
+          "inventory_rms_std": 0.045257666381724584,
+          "net_pnl_bps_turnover": 3.6369136141987903,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36877.80767096239,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0016",
+          "turnover": 245852051.1397493,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44261155772350025,
+          "final_equity": 88159.40478548549,
+          "final_equity_std": 1415.7893856553458,
+          "inventory_rms": 2.8486126879227873,
+          "inventory_rms_std": 0.023909078920827175,
+          "net_pnl_bps_turnover": 3.5990768368493002,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36741.37245007127,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0064",
+          "turnover": 244942483.00047517,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4433527106543694,
+          "final_equity": 88558.09584051091,
+          "final_equity_std": 4804.21665598894,
+          "inventory_rms": 4.89611310542622,
+          "inventory_rms_std": 0.07215778912666804,
+          "net_pnl_bps_turnover": 3.609336704868808,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36803.23164480644,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0",
+          "turnover": 245354877.63204294,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44327220202929085,
+          "final_equity": 88813.33282385692,
+          "final_equity_std": 5818.489761644013,
+          "inventory_rms": 4.891638033713697,
+          "inventory_rms_std": 0.06945680706384343,
+          "net_pnl_bps_turnover": 3.6200993613010786,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36798.06104233935,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=5e-06",
+          "turnover": 245320406.948929,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.443420195825391,
+          "final_equity": 89874.76625826804,
+          "final_equity_std": 2726.4338693240734,
+          "inventory_rms": 4.894770913439759,
+          "inventory_rms_std": 0.08714707465957747,
+          "net_pnl_bps_turnover": 3.6625103877790735,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36809.48751843183,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=2.5e-05",
+          "turnover": 245396583.45621222,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44383457845447116,
+          "final_equity": 90418.29471875881,
+          "final_equity_std": 6037.194778611095,
+          "inventory_rms": 4.806780696486643,
+          "inventory_rms_std": 0.0887734764623995,
+          "net_pnl_bps_turnover": 3.6810782944087967,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36845.63736508829,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0001",
+          "turnover": 245637582.43392196,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4439861241016777,
+          "final_equity": 90374.49142685597,
+          "final_equity_std": 4340.620074259913,
+          "inventory_rms": 4.697281518103983,
+          "inventory_rms_std": 0.052190353931975776,
+          "net_pnl_bps_turnover": 3.6781850317770846,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36857.676742676485,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0004",
+          "turnover": 245717844.95117664,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4448468560197957,
+          "final_equity": 86997.59271692883,
+          "final_equity_std": 5601.912281458461,
+          "inventory_rms": 3.992933823010887,
+          "inventory_rms_std": 0.04172292978855525,
+          "net_pnl_bps_turnover": 3.533585806794445,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36929.43438557473,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0016",
+          "turnover": 246196229.23716488,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4412677740549116,
+          "final_equity": 90497.09590808251,
+          "final_equity_std": 2665.409042638866,
+          "inventory_rms": 2.6285428289644326,
+          "inventory_rms_std": 0.018799641458843382,
+          "net_pnl_bps_turnover": 3.705766110365301,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36630.7685223,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0064",
+          "turnover": 244205123.48199996,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44362857109029996,
+          "final_equity": 89231.90511383837,
+          "final_equity_std": 913.0855434058756,
+          "inventory_rms": 3.1229534050251218,
+          "inventory_rms_std": 0.03734689241768933,
+          "net_pnl_bps_turnover": 3.634716838418266,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36825.39786708995,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0",
+          "turnover": 245502652.4472664,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4436321229414063,
+          "final_equity": 89156.84353676069,
+          "final_equity_std": 872.8414082445322,
+          "inventory_rms": 3.120051072934852,
+          "inventory_rms_std": 0.03886316088741269,
+          "net_pnl_bps_turnover": 3.6316270824884733,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36825.679522077204,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=5e-06",
+          "turnover": 245504530.14718136,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4435468785148527,
+          "final_equity": 89059.74358453203,
+          "final_equity_std": 814.8195124858426,
+          "inventory_rms": 3.115758788836757,
+          "inventory_rms_std": 0.03986425575986854,
+          "net_pnl_bps_turnover": 3.628368737733441,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36818.5754470106,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=2.5e-05",
+          "turnover": 245457169.64673734,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44340598842096535,
+          "final_equity": 89507.34035383997,
+          "final_equity_std": 3832.6533086684117,
+          "inventory_rms": 3.096902596794348,
+          "inventory_rms_std": 0.03737306102774501,
+          "net_pnl_bps_turnover": 3.64779329078707,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36806.58239177737,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0001",
+          "turnover": 245377215.9451825,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4432875933840853,
+          "final_equity": 91159.31304700565,
+          "final_equity_std": 1562.8544781355674,
+          "inventory_rms": 3.0249556358198895,
+          "inventory_rms_std": 0.0349697255192095,
+          "net_pnl_bps_turnover": 3.715900344639723,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36797.160600828574,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0004",
+          "turnover": 245314404.00552392,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4419876158791423,
+          "final_equity": 89212.99426133343,
+          "final_equity_std": 2346.364144702964,
+          "inventory_rms": 2.7771101540376053,
+          "inventory_rms_std": 0.025155461461710077,
+          "net_pnl_bps_turnover": 3.647271385724197,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36690.34568321971,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0016",
+          "turnover": 244602304.55479807,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4374282230088915,
+          "final_equity": 90401.60893213193,
+          "final_equity_std": 2766.0994784426616,
+          "inventory_rms": 2.152826374417646,
+          "inventory_rms_std": 0.017115591641852976,
+          "net_pnl_bps_turnover": 3.7342723108222975,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 36312.49284901786,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0064",
+          "turnover": 242083285.66011906,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4282715508565881,
+          "final_equity": 90516.17408388732,
+          "final_equity_std": 1147.4850075763782,
+          "inventory_rms": 1.6183890126226093,
+          "inventory_rms_std": 0.009843044629494915,
+          "net_pnl_bps_turnover": 3.8186018939432294,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35555.999196552875,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0",
+          "turnover": 237039994.64368588,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42827865455880093,
+          "final_equity": 90517.81711648846,
+          "final_equity_std": 1151.1878617966743,
+          "inventory_rms": 1.6183275537107946,
+          "inventory_rms_std": 0.009844404382919893,
+          "net_pnl_bps_turnover": 3.8186116958375784,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35556.54919598667,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=5e-06",
+          "turnover": 237043661.30657786,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42827865455880093,
+          "final_equity": 90542.68661481088,
+          "final_equity_std": 1126.5426279646986,
+          "inventory_rms": 1.6173331850098733,
+          "inventory_rms_std": 0.00995994489475943,
+          "net_pnl_bps_turnover": 3.8196675836459724,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35556.47194289769,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=2.5e-05",
+          "turnover": 237043146.2859846,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42818393852929687,
+          "final_equity": 90519.37159996871,
+          "final_equity_std": 1139.7696933827278,
+          "inventory_rms": 1.6150291699125794,
+          "inventory_rms_std": 0.009527627297925683,
+          "net_pnl_bps_turnover": 3.819555486389524,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35548.35543905004,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0001",
+          "turnover": 236989036.26033363,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42797082746291276,
+          "final_equity": 90484.05041980278,
+          "final_equity_std": 1125.0795844926436,
+          "inventory_rms": 1.60475507491581,
+          "inventory_rms_std": 0.008602981844871599,
+          "net_pnl_bps_turnover": 3.8199877356433722,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35530.43804540546,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0004",
+          "turnover": 236869586.9693697,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4268010844985378,
+          "final_equity": 90359.98185832748,
+          "final_equity_std": 911.8370617657094,
+          "inventory_rms": 1.5657768839546258,
+          "inventory_rms_std": 0.007952835998660219,
+          "net_pnl_bps_turnover": 3.825409856529634,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35431.440458088866,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0016",
+          "turnover": 236209603.05392584,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4225885890863455,
+          "final_equity": 89851.0388748367,
+          "final_equity_std": 340.7815024653015,
+          "inventory_rms": 1.4282974772265427,
+          "inventory_rms_std": 0.010057518580269409,
+          "net_pnl_bps_turnover": 3.8420770159636235,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 35078.907543373745,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0064",
+          "turnover": 233859383.62249166,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4448018659057812,
+          "final_equity": 92142.13045930202,
+          "final_equity_std": 4690.863616414932,
+          "inventory_rms": 3.7028311978169235,
+          "inventory_rms_std": 0.049307650816659825,
+          "net_pnl_bps_turnover": 3.742904427400936,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.012
+          },
+          "realized_trading_fees": 36924.420079473064,
+          "trial": "pure_as__additional_01",
+          "turnover": 246162800.52982044,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4447367486354972,
+          "final_equity": 91979.24127057948,
+          "final_equity_std": 4976.114857594595,
+          "inventory_rms": 4.127493439172411,
+          "inventory_rms_std": 0.045884656889844055,
+          "net_pnl_bps_turnover": 3.7370979835609206,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.016
+          },
+          "realized_trading_fees": 36919.32707743287,
+          "trial": "pure_as__additional_02",
+          "turnover": 246128847.18288583,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.44471188567775244,
+          "final_equity": 87619.87143465396,
+          "final_equity_std": 2621.8032742649525,
+          "inventory_rms": 3.830368349580739,
+          "inventory_rms_std": 0.06236057990163962,
+          "net_pnl_bps_turnover": 3.5601684272139726,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.02
+          },
+          "realized_trading_fees": 36917.96928021073,
+          "trial": "pure_as__additional_03",
+          "turnover": 246119795.20140487,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3582669334501497,
+          "final_equity": 84962.74326593913,
+          "final_equity_std": 416.1178400048847,
+          "inventory_rms": 0.7998132545670658,
+          "inventory_rms_std": 0.002758008264744786,
+          "net_pnl_bps_turnover": 4.285243444782953,
+          "params": {
+            "running_penalty": 0.025,
+            "terminal_penalty": 0.5
+          },
+          "realized_trading_fees": 29739.83357234993,
+          "trial": "pure_as__additional_04",
+          "turnover": 198265557.14899954,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.26742597350319075,
+          "final_equity": 65179.95885595937,
+          "final_equity_std": 427.67258917055005,
+          "inventory_rms": 0.5555811360349509,
+          "inventory_rms_std": 0.001595984640160178,
+          "net_pnl_bps_turnover": 4.403900224176182,
+          "params": {
+            "running_penalty": 0.1,
+            "terminal_penalty": 1.0
+          },
+          "realized_trading_fees": 22200.532614494336,
+          "trial": "pure_as__additional_05",
+          "turnover": 148003550.7632956,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.136825592271172,
+          "final_equity": 48310.26199147861,
+          "final_equity_std": 346.94645406204273,
+          "inventory_rms": 0.4043634202047868,
+          "inventory_rms_std": 0.001045247491249515,
+          "net_pnl_bps_turnover": 6.376628626958452,
+          "params": {
+            "running_penalty": 0.2,
+            "terminal_penalty": 2.0
+          },
+          "realized_trading_fees": 11364.126729748139,
+          "trial": "pure_as__additional_06",
+          "turnover": 75760844.86498761,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.010234066987911867,
+          "final_equity": 7617.896985544207,
+          "final_equity_std": 324.6921385975625,
+          "inventory_rms": 0.11304697484246928,
+          "inventory_rms_std": 0.0016991396855273021,
+          "net_pnl_bps_turnover": 13.4452194649753,
+          "params": {
+            "running_penalty": 0.5,
+            "terminal_penalty": 5.0
+          },
+          "realized_trading_fees": 849.8552314068578,
+          "trial": "pure_as__additional_07",
+          "turnover": 5665701.542712386,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.00011839503688005398,
+          "final_equity": 174.05381154342234,
+          "final_equity_std": 24.937624378540285,
+          "inventory_rms": 0.011952189534103467,
+          "inventory_rms_std": 0.0014085055619935509,
+          "net_pnl_bps_turnover": 26.532847331743504,
+          "params": {
+            "running_penalty": 1.0,
+            "terminal_penalty": 10.0
+          },
+          "realized_trading_fees": 9.971461183606257,
+          "trial": "pure_as__additional_08",
+          "turnover": 66476.40789070839,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 5.0,
+            "terminal_penalty": 50.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_09",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 10.0,
+            "terminal_penalty": 100.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_10",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        }
+      ],
+      "asset": "ETH",
+      "base_config": "configs\\backtest_eth_hl_l2_holdout_model_variants.yaml",
+      "baseline_as": {
+        "fill_rate": 0.4388915856647289,
+        "final_equity": 84102.70817693653,
+        "final_equity_std": 6227.765328880138,
+        "inventory_rms": 5.716896386899469,
+        "inventory_rms_std": 0.026163599500657667,
+        "net_pnl_bps_turnover": 3.4624717459533523,
+        "params": {},
+        "realized_trading_fees": 36434.9983548281,
+        "trial": "pure_as_default",
+        "turnover": 242899989.03218737,
+        "variant": "pure_as"
+      },
+      "hjb_candidates": [
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91094.57252913686,
+          "final_equity_std": 3411.9128003690585,
+          "inventory_rms": 3.6147356259426715,
+          "inventory_rms_std": 0.046761273272485235,
+          "net_pnl_bps_turnover": 3.703839096060835,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36891.7875932072,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=2.5e-05",
+          "turnover": 245945250.62138134,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.44440761043297067,
+          "final_equity": 91108.74302555165,
+          "final_equity_std": 3435.2204062136375,
+          "inventory_rms": 3.6142876618577935,
+          "inventory_rms_std": 0.04639909787616197,
+          "net_pnl_bps_turnover": 3.7043947678091755,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36891.98664026932,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=5e-05",
+          "turnover": 245946577.6017955,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91096.36618926247,
+          "final_equity_std": 3432.224464233813,
+          "inventory_rms": 3.613565187975363,
+          "inventory_rms_std": 0.04685303379911948,
+          "net_pnl_bps_turnover": 3.703912707386067,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36891.78517717449,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0001",
+          "turnover": 245945234.51449662,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4443981388300203,
+          "final_equity": 91100.19130269745,
+          "final_equity_std": 3450.63648906099,
+          "inventory_rms": 3.6125271038774365,
+          "inventory_rms_std": 0.04744651589638874,
+          "net_pnl_bps_turnover": 3.704125866068778,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 36891.20807985837,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0002",
+          "turnover": 245941387.19905585,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91094.57252910302,
+          "final_equity_std": 3411.9128003697374,
+          "inventory_rms": 3.6147356259426715,
+          "inventory_rms_std": 0.046761273272485235,
+          "net_pnl_bps_turnover": 3.7038390960593004,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 36891.787593208806,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=2.5e-05",
+          "turnover": 245945250.62139207,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.44440761043297067,
+          "final_equity": 91108.7430255182,
+          "final_equity_std": 3435.220406214953,
+          "inventory_rms": 3.6142876618577935,
+          "inventory_rms_std": 0.04639909787616197,
+          "net_pnl_bps_turnover": 3.704394767807657,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 36891.986640270916,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=5e-05",
+          "turnover": 245946577.60180616,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91096.36618922988,
+          "final_equity_std": 3432.22446423548,
+          "inventory_rms": 3.613565187975363,
+          "inventory_rms_std": 0.04685303379911948,
+          "net_pnl_bps_turnover": 3.7039127073845832,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 36891.78517717609,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=0.0001",
+          "turnover": 245945234.51450723,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4443981388300203,
+          "final_equity": 91100.1913026645,
+          "final_equity_std": 3450.6364890615496,
+          "inventory_rms": 3.6125271038774365,
+          "inventory_rms_std": 0.04744651589638874,
+          "net_pnl_bps_turnover": 3.704125866067281,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 36891.20807985996,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=0.0002",
+          "turnover": 245941387.1990664,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91094.57252903716,
+          "final_equity_std": 3411.9128003722267,
+          "inventory_rms": 3.6147356259426715,
+          "inventory_rms_std": 0.046761273272485235,
+          "net_pnl_bps_turnover": 3.703839096056305,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36891.78759321199,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=2.5e-05",
+          "turnover": 245945250.62141332,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.44440761043297067,
+          "final_equity": 91108.74302545204,
+          "final_equity_std": 3435.2204062171118,
+          "inventory_rms": 3.6142876618577935,
+          "inventory_rms_std": 0.04639909787616197,
+          "net_pnl_bps_turnover": 3.7043947678046507,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36891.9866402741,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=5e-05",
+          "turnover": 245946577.60182744,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91096.36618916337,
+          "final_equity_std": 3432.224464237746,
+          "inventory_rms": 3.613565187975363,
+          "inventory_rms_std": 0.04685303379911948,
+          "net_pnl_bps_turnover": 3.7039127073815634,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36891.78517717926,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=0.0001",
+          "turnover": 245945234.51452845,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4443981388300203,
+          "final_equity": 91100.19130259883,
+          "final_equity_std": 3450.636489064182,
+          "inventory_rms": 3.6125271038774365,
+          "inventory_rms_std": 0.04744651589638874,
+          "net_pnl_bps_turnover": 3.7041258660642975,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 36891.20807986312,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=0.0002",
+          "turnover": 245941387.19908753,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91094.57252890772,
+          "final_equity_std": 3411.912800378627,
+          "inventory_rms": 3.6147356259426715,
+          "inventory_rms_std": 0.046761273272485235,
+          "net_pnl_bps_turnover": 3.7038390960504173,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 36891.7875932183,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=2.5e-05",
+          "turnover": 245945250.62145537,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.44440761043297067,
+          "final_equity": 91108.74302532183,
+          "final_equity_std": 3435.22040622206,
+          "inventory_rms": 3.6142876618577935,
+          "inventory_rms_std": 0.04639909787616197,
+          "net_pnl_bps_turnover": 3.704394767798731,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 36891.98664028041,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=5e-05",
+          "turnover": 245946577.6018694,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91096.36618903384,
+          "final_equity_std": 3432.22446424192,
+          "inventory_rms": 3.613565187975363,
+          "inventory_rms_std": 0.04685303379911948,
+          "net_pnl_bps_turnover": 3.703912707375673,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 36891.78517718555,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=0.0001",
+          "turnover": 245945234.51457033,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4443981388300203,
+          "final_equity": 91100.19130246909,
+          "final_equity_std": 3450.6364890694103,
+          "inventory_rms": 3.6125271038774365,
+          "inventory_rms_std": 0.04744651589638874,
+          "net_pnl_bps_turnover": 3.704125866058402,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 36891.20807986936,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=0.0002",
+          "turnover": 245941387.1991291,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91094.57252865189,
+          "final_equity_std": 3411.9128003875985,
+          "inventory_rms": 3.6147356259426715,
+          "inventory_rms_std": 0.046761273272485235,
+          "net_pnl_bps_turnover": 3.7038390960387915,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 36891.78759323063,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=2.5e-05",
+          "turnover": 245945250.62153754,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.44440761043297067,
+          "final_equity": 91108.74302506757,
+          "final_equity_std": 3435.2204062322558,
+          "inventory_rms": 3.6142876618577935,
+          "inventory_rms_std": 0.04639909787616197,
+          "net_pnl_bps_turnover": 3.7043947677871714,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 36891.98664029271,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=5e-05",
+          "turnover": 245946577.60195142,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.444405242532233,
+          "final_equity": 91096.36618878118,
+          "final_equity_std": 3432.2244642522546,
+          "inventory_rms": 3.613565187975363,
+          "inventory_rms_std": 0.04685303379911948,
+          "net_pnl_bps_turnover": 3.703912707364183,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 36891.78517719781,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=0.0001",
+          "turnover": 245945234.51465207,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4443981388300203,
+          "final_equity": 91100.19130221808,
+          "final_equity_std": 3450.6364890792324,
+          "inventory_rms": 3.6125271038774365,
+          "inventory_rms_std": 0.04744651589638874,
+          "net_pnl_bps_turnover": 3.7041258660469856,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 36891.208079881544,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=0.0002",
+          "turnover": 245941387.19921035,
+          "variant": "hjb_fd"
+        }
+      ],
+      "hjb_constraint_feasible": true,
+      "risk_matched_as": {
+        "fill_rate": 0.4448018659057812,
+        "final_equity": 92142.13045930202,
+        "final_equity_std": 4690.863616414932,
+        "inventory_rms": 3.7028311978169235,
+        "inventory_rms_std": 0.049307650816659825,
+        "net_pnl_bps_turnover": 3.742904427400936,
+        "params": {
+          "running_penalty": 0.0016,
+          "terminal_penalty": 0.012
+        },
+        "realized_trading_fees": 36924.420079473064,
+        "trial": "pure_as__additional_01",
+        "turnover": 246162800.52982044,
+        "variant": "pure_as"
+      },
+      "selected_hjb": {
+        "fill_rate": 0.44440761043297067,
+        "final_equity": 91108.74302555165,
+        "final_equity_std": 3435.2204062136375,
+        "inventory_rms": 3.6142876618577935,
+        "inventory_rms_std": 0.04639909787616197,
+        "net_pnl_bps_turnover": 3.7043947678091755,
+        "params": {
+          "running_penalty": 5e-05,
+          "terminal_penalty": 0.00025
+        },
+        "realized_trading_fees": 36891.98664026932,
+        "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=5e-05",
+        "turnover": 245946577.6017955,
+        "variant": "hjb_fd"
+      }
+    },
+    {
+      "as_candidates": [
+        {
+          "fill_rate": 0.4128998259180749,
+          "final_equity": 30987.94738392767,
+          "final_equity_std": 5416.385031478511,
+          "inventory_rms": 0.2978296465630697,
+          "inventory_rms_std": 0.002506549049860883,
+          "net_pnl_bps_turnover": 0.9245452526542406,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50267.47454247644,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0",
+          "turnover": 335116496.949843,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41298982745757495,
+          "final_equity": 30739.724882361326,
+          "final_equity_std": 5027.090069345541,
+          "inventory_rms": 0.2973330067401988,
+          "inventory_rms_std": 0.002434000418274768,
+          "net_pnl_bps_turnover": 0.9169942191880116,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50277.77914259722,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=5e-06",
+          "turnover": 335185194.28398144,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130443020735881,
+          "final_equity": 30239.35036573951,
+          "final_equity_std": 5983.284583695944,
+          "inventory_rms": 0.2969900161586597,
+          "inventory_rms_std": 0.001932116165882167,
+          "net_pnl_bps_turnover": 0.9019284367712345,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50283.92455877054,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=2.5e-05",
+          "turnover": 335226163.72513694,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41303838091967365,
+          "final_equity": 28124.825924428926,
+          "final_equity_std": 7611.314543058373,
+          "inventory_rms": 0.29693345607008315,
+          "inventory_rms_std": 0.0019134082169570792,
+          "net_pnl_bps_turnover": 0.8391841901519923,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50285.95497237814,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0001",
+          "turnover": 335239699.8158543,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4133012801534763,
+          "final_equity": 30356.691631458314,
+          "final_equity_std": 5402.779937749205,
+          "inventory_rms": 0.2943025933942872,
+          "inventory_rms_std": 0.0023984364087612097,
+          "net_pnl_bps_turnover": 0.9050490367217364,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50315.118741628816,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0004",
+          "turnover": 335434124.9441921,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130525916890684,
+          "final_equity": 25360.304458970968,
+          "final_equity_std": 6840.307576032664,
+          "inventory_rms": 0.2965800468698494,
+          "inventory_rms_std": 0.0028141926995486313,
+          "net_pnl_bps_turnover": 0.7565527382877015,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50285.49860378318,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0016",
+          "turnover": 335236657.3585545,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4129685113034828,
+          "final_equity": 30239.01380338349,
+          "final_equity_std": 3802.7873342986436,
+          "inventory_rms": 0.2944570035812907,
+          "inventory_rms_std": 0.003693058423955386,
+          "net_pnl_bps_turnover": 0.9024558163530239,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 50274.92690807236,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0064",
+          "turnover": 335166179.38714904,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41298982745757495,
+          "final_equity": 30739.792654398138,
+          "final_equity_std": 5027.090131965008,
+          "inventory_rms": 0.2973330067401988,
+          "inventory_rms_std": 0.002434000418274768,
+          "net_pnl_bps_turnover": 0.9169962410909955,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50277.77914297965,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0",
+          "turnover": 335185194.28653103,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130443020735881,
+          "final_equity": 30239.113126732584,
+          "final_equity_std": 5983.284370461587,
+          "inventory_rms": 0.2969900161586597,
+          "inventory_rms_std": 0.001932116165882167,
+          "net_pnl_bps_turnover": 0.9019213598748369,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50283.92455734995,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=5e-06",
+          "turnover": 335226163.7156664,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130443020735881,
+          "final_equity": 30239.519822175665,
+          "final_equity_std": 5983.284736006018,
+          "inventory_rms": 0.2969900161586597,
+          "inventory_rms_std": 0.001932116165882167,
+          "net_pnl_bps_turnover": 0.9019334916973115,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50283.92455978522,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=2.5e-05",
+          "turnover": 335226163.7319015,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41303838091967365,
+          "final_equity": 28124.995382163113,
+          "final_equity_std": 7611.314308859439,
+          "inventory_rms": 0.29693345607008315,
+          "inventory_rms_std": 0.0019134082169570792,
+          "net_pnl_bps_turnover": 0.8391892449150079,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50285.95497345525,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0001",
+          "turnover": 335239699.82303494,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4133012801534763,
+          "final_equity": 30356.861188305433,
+          "final_equity_std": 5402.779871044634,
+          "inventory_rms": 0.2943025933942872,
+          "inventory_rms_std": 0.0023984364087612097,
+          "net_pnl_bps_turnover": 0.9050540915076443,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50315.11874252667,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0004",
+          "turnover": 335434124.9501779,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130525916890684,
+          "final_equity": 25360.473928389976,
+          "final_equity_std": 6840.307575892408,
+          "inventory_rms": 0.2965800468698494,
+          "inventory_rms_std": 0.0028141926995486313,
+          "net_pnl_bps_turnover": 0.7565577934479271,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50285.49860450714,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0016",
+          "turnover": 335236657.36338097,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4129685113034828,
+          "final_equity": 30239.183226388577,
+          "final_equity_std": 3802.7868643681695,
+          "inventory_rms": 0.2944570035812907,
+          "inventory_rms_std": 0.003693058423955386,
+          "net_pnl_bps_turnover": 0.902460871193376,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 50274.92690850927,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0064",
+          "turnover": 335166179.39006186,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130443020735881,
+          "final_equity": 30239.689278615173,
+          "final_equity_std": 5983.284888317093,
+          "inventory_rms": 0.2969900161586597,
+          "inventory_rms_std": 0.001932116165882167,
+          "net_pnl_bps_turnover": 0.9019385466234879,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50283.924560799926,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0",
+          "turnover": 335226163.7386662,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130443020735881,
+          "final_equity": 30239.79095247324,
+          "final_equity_std": 5983.284979702924,
+          "inventory_rms": 0.2969900161586597,
+          "inventory_rms_std": 0.001932116165882167,
+          "net_pnl_bps_turnover": 0.9019415795790258,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50283.92456140874,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=5e-06",
+          "turnover": 335226163.742725,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130443020735881,
+          "final_equity": 30240.197647917947,
+          "final_equity_std": 5983.285345248197,
+          "inventory_rms": 0.2969900161586597,
+          "inventory_rms_std": 0.001932116165882167,
+          "net_pnl_bps_turnover": 0.9019537114015467,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50283.924563844026,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=2.5e-05",
+          "turnover": 335226163.7589601,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41318048861362106,
+          "final_equity": 28342.946464998655,
+          "final_equity_std": 7362.452177851871,
+          "inventory_rms": 0.29610318253662554,
+          "inventory_rms_std": 0.0017635081350517586,
+          "net_pnl_bps_turnover": 0.8455074949248992,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50301.757221070155,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0001",
+          "turnover": 335345048.14046776,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4131046978435157,
+          "final_equity": 27731.66119368119,
+          "final_equity_std": 4247.563542634901,
+          "inventory_rms": 0.2949551378996336,
+          "inventory_rms_std": 0.0028058617665361234,
+          "net_pnl_bps_turnover": 0.8269133444668766,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50293.42896622223,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0004",
+          "turnover": 335289526.4414815,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4132349632296342,
+          "final_equity": 25743.875883530087,
+          "final_equity_std": 6776.7098163019755,
+          "inventory_rms": 0.2945045894544591,
+          "inventory_rms_std": 0.004275230656424235,
+          "net_pnl_bps_turnover": 0.7676205470351485,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50305.918957807306,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0016",
+          "turnover": 335372793.05204874,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41306324976611447,
+          "final_equity": 30346.026150838,
+          "final_equity_std": 4178.236384081472,
+          "inventory_rms": 0.29389446797895175,
+          "inventory_rms_std": 0.00311937601712956,
+          "net_pnl_bps_turnover": 0.9054569164633207,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 50285.398143636645,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0064",
+          "turnover": 335235987.62424433,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41318048861362106,
+          "final_equity": 28343.455008966645,
+          "final_equity_std": 7362.451199924002,
+          "inventory_rms": 0.29610318253662554,
+          "inventory_rms_std": 0.0017635081350517586,
+          "net_pnl_bps_turnover": 0.8455226595430027,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50301.757224201036,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0",
+          "turnover": 335345048.16134024,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41318048861362106,
+          "final_equity": 28343.55671775965,
+          "final_equity_std": 7362.451004338709,
+          "inventory_rms": 0.29610318253662554,
+          "inventory_rms_std": 0.0017635081350517586,
+          "net_pnl_bps_turnover": 0.8455256924666056,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50301.757224827204,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=5e-06",
+          "turnover": 335345048.16551477,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41308575015098936,
+          "final_equity": 28440.891935652173,
+          "final_equity_std": 7259.170617229576,
+          "inventory_rms": 0.29671416533045214,
+          "inventory_rms_std": 0.001686903185806251,
+          "net_pnl_bps_turnover": 0.8485754723818685,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50291.245204068095,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=2.5e-05",
+          "turnover": 335274968.0271206,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130312755349762,
+          "final_equity": 28868.418931159027,
+          "final_equity_std": 7640.653591313711,
+          "inventory_rms": 0.2967943232748186,
+          "inventory_rms_std": 0.0017836118919711689,
+          "net_pnl_bps_turnover": 0.8614303147746896,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50285.29356108888,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0001",
+          "turnover": 335235290.40725917,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4132444370758973,
+          "final_equity": 29944.34877601795,
+          "final_equity_std": 5729.11624731345,
+          "inventory_rms": 0.29403314232320793,
+          "inventory_rms_std": 0.0022554750897264965,
+          "net_pnl_bps_turnover": 0.8930400766918568,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50309.83258555181,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0004",
+          "turnover": 335398883.9036788,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4130881186125552,
+          "final_equity": 27024.987560475798,
+          "final_equity_std": 8068.54739760975,
+          "inventory_rms": 0.2946741787007345,
+          "inventory_rms_std": 0.0027699623794716043,
+          "net_pnl_bps_turnover": 0.8060766612210271,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50288.52823711019,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0016",
+          "turnover": 335256854.91406804,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41292943168764723,
+          "final_equity": 27450.6260034154,
+          "final_equity_std": 5072.553183143131,
+          "inventory_rms": 0.2938287090030517,
+          "inventory_rms_std": 0.002910865819389864,
+          "net_pnl_bps_turnover": 0.8194849547172337,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 50269.89267262277,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0064",
+          "turnover": 335132617.81748515,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4131745674597065,
+          "final_equity": 28569.176457356527,
+          "final_equity_std": 9412.067037728706,
+          "inventory_rms": 0.2961094808013355,
+          "inventory_rms_std": 0.003956756797991363,
+          "net_pnl_bps_turnover": 0.851518175616298,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50299.71007840009,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0",
+          "turnover": 335331400.5226673,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4131271982283907,
+          "final_equity": 28419.022992771934,
+          "final_equity_std": 9274.447873045947,
+          "inventory_rms": 0.29618187834493764,
+          "inventory_rms_std": 0.004002410707656368,
+          "net_pnl_bps_turnover": 0.8471322793568454,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50294.56861585048,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=5e-06",
+          "turnover": 335297124.10567,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4131271982283907,
+          "final_equity": 28419.42976413846,
+          "final_equity_std": 9274.448849501263,
+          "inventory_rms": 0.29618187834493764,
+          "inventory_rms_std": 0.004002410707656368,
+          "net_pnl_bps_turnover": 0.847144410880692,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50294.568617845245,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=2.5e-05",
+          "turnover": 335297124.1189683,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4128548251483249,
+          "final_equity": 25237.195517288164,
+          "final_equity_std": 7679.67628594546,
+          "inventory_rms": 0.2984424100726737,
+          "inventory_rms_std": 0.0014959302364408109,
+          "net_pnl_bps_turnover": 0.7533391714611029,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50263.18131058972,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0001",
+          "turnover": 335087875.4039315,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41315206707483154,
+          "final_equity": 26982.56656032311,
+          "final_equity_std": 8190.394675016997,
+          "inventory_rms": 0.2945634441931616,
+          "inventory_rms_std": 0.0027947444132660777,
+          "net_pnl_bps_turnover": 0.8046232967652751,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50295.824964849475,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0004",
+          "turnover": 335305499.76566327,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41243442322039725,
+          "final_equity": 26311.09274880587,
+          "final_equity_std": 5204.0809351129155,
+          "inventory_rms": 0.2993749842709093,
+          "inventory_rms_std": 0.003118417702822681,
+          "net_pnl_bps_turnover": 0.7860663708201304,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50216.42928336675,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0016",
+          "turnover": 334776195.222445,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4128642989945881,
+          "final_equity": 26502.922760576803,
+          "final_equity_std": 3315.5256639657086,
+          "inventory_rms": 0.29389655381872076,
+          "inventory_rms_std": 0.004430100047375092,
+          "net_pnl_bps_turnover": 0.7909877031417615,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 50260.65013508883,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0064",
+          "turnover": 335071000.9005922,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41263337399192357,
+          "final_equity": 32868.07787778897,
+          "final_equity_std": 7751.583264778645,
+          "inventory_rms": 0.29563512256063934,
+          "inventory_rms_std": 0.0030591142566570514,
+          "net_pnl_bps_turnover": 0.9817084035375168,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50235.38443839634,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0",
+          "turnover": 334902562.92264235,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41263337399192357,
+          "final_equity": 32868.17945237145,
+          "final_equity_std": 7751.58309626199,
+          "inventory_rms": 0.29563512256063934,
+          "inventory_rms_std": 0.0030591142566570514,
+          "net_pnl_bps_turnover": 0.9817114364623405,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50235.38443881662,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=5e-06",
+          "turnover": 334902562.9254441,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41263337399192357,
+          "final_equity": 32868.58575063925,
+          "final_equity_std": 7751.5824221964485,
+          "inventory_rms": 0.29563512256063934,
+          "inventory_rms_std": 0.0030591142566570514,
+          "net_pnl_bps_turnover": 0.9817235681597797,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50235.38444049769,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=2.5e-05",
+          "turnover": 334902562.9366513,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41265469014601563,
+          "final_equity": 30567.34310835994,
+          "final_equity_std": 4713.353537389156,
+          "inventory_rms": 0.2956683646974285,
+          "inventory_rms_std": 0.003476271036869486,
+          "net_pnl_bps_turnover": 0.912884639556041,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50238.13087351712,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0001",
+          "turnover": 334920872.49011415,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.413292990537996,
+          "final_equity": 30874.816022181138,
+          "final_equity_std": 2460.680697621766,
+          "inventory_rms": 0.2926637425145954,
+          "inventory_rms_std": 0.004498517392470797,
+          "net_pnl_bps_turnover": 0.9206170162047339,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50313.03739510182,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0004",
+          "turnover": 335420249.30067885,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41302772284262756,
+          "final_equity": 24561.893619676248,
+          "final_equity_std": 4013.773876632693,
+          "inventory_rms": 0.2930271723720006,
+          "inventory_rms_std": 0.004184258832306809,
+          "net_pnl_bps_turnover": 0.7329536517305749,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50282.142643382416,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0016",
+          "turnover": 335214284.2892161,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4125232405291143,
+          "final_equity": 28455.449274308437,
+          "final_equity_std": 6265.611633327315,
+          "inventory_rms": 0.29402253188679256,
+          "inventory_rms_std": 0.0040618322150305945,
+          "net_pnl_bps_turnover": 0.8501771739143809,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 50220.95544068849,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0064",
+          "turnover": 334806369.60459,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41215020783250245,
+          "final_equity": 27547.24805978448,
+          "final_equity_std": 3131.2105088507074,
+          "inventory_rms": 0.2933896022562322,
+          "inventory_rms_std": 0.0016688983308109993,
+          "net_pnl_bps_turnover": 0.8234689543949006,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50174.6175375897,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0",
+          "turnover": 334497450.2505981,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41215020783250245,
+          "final_equity": 27547.349510659744,
+          "final_equity_std": 3131.210619418392,
+          "inventory_rms": 0.2933896022562322,
+          "inventory_rms_std": 0.0016688983308109993,
+          "net_pnl_bps_turnover": 0.823471987293348,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50174.617538132945,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=5e-06",
+          "turnover": 334497450.25421965,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41205073244673923,
+          "final_equity": 27946.865570968694,
+          "final_equity_std": 3115.0546808055647,
+          "inventory_rms": 0.2935617234289284,
+          "inventory_rms_std": 0.0015706468765938608,
+          "net_pnl_bps_turnover": 0.8356383253998307,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50164.13951906965,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=2.5e-05",
+          "turnover": 334427596.7937976,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4123100789881932,
+          "final_equity": 29679.292143664545,
+          "final_equity_std": 5960.196105068341,
+          "inventory_rms": 0.2919551043949253,
+          "inventory_rms_std": 0.0036508072473256468,
+          "net_pnl_bps_turnover": 0.8869277766308128,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50192.914691234604,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0001",
+          "turnover": 334619431.2748974,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41208033821631157,
+          "final_equity": 30788.875885326193,
+          "final_equity_std": 4931.67473411836,
+          "inventory_rms": 0.292079272788499,
+          "inventory_rms_std": 0.0042053590936519235,
+          "net_pnl_bps_turnover": 0.9204376165241082,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50165.49273433484,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0004",
+          "turnover": 334436618.228899,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4120495482159563,
+          "final_equity": 32548.914885595423,
+          "final_equity_std": 3824.345549675542,
+          "inventory_rms": 0.29148896399539753,
+          "inventory_rms_std": 0.004915996195116236,
+          "net_pnl_bps_turnover": 0.9732549083822735,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50161.756142466926,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0016",
+          "turnover": 334411707.61644614,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.41185178167521286,
+          "final_equity": 27599.168080299114,
+          "final_equity_std": 4001.024102153504,
+          "inventory_rms": 0.2891268270491361,
+          "inventory_rms_std": 0.001841789499836478,
+          "net_pnl_bps_turnover": 0.8255603766414172,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 50135.78854673979,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0064",
+          "turnover": 334238590.3115986,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4129175893798183,
+          "final_equity": 23466.242176680687,
+          "final_equity_std": 9997.490460333142,
+          "inventory_rms": 0.2941520494909221,
+          "inventory_rms_std": 0.00292068178304245,
+          "net_pnl_bps_turnover": 0.699972567759614,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.012
+          },
+          "realized_trading_fees": 50270.84574127089,
+          "trial": "pure_as__additional_01",
+          "turnover": 335138971.6084727,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4126037682223512,
+          "final_equity": 25743.41715646143,
+          "final_equity_std": 5188.765609301998,
+          "inventory_rms": 0.2992808223715557,
+          "inventory_rms_std": 0.005572877544819856,
+          "net_pnl_bps_turnover": 0.7685611124369578,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.016
+          },
+          "realized_trading_fees": 50234.85985681844,
+          "trial": "pure_as__additional_02",
+          "turnover": 334899065.712123,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4131615409210947,
+          "final_equity": 26396.803970653604,
+          "final_equity_std": 6583.306916063942,
+          "inventory_rms": 0.29460809285570894,
+          "inventory_rms_std": 0.0037742425600843154,
+          "net_pnl_bps_turnover": 0.7876867532308085,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.02
+          },
+          "realized_trading_fees": 50299.01306762723,
+          "trial": "pure_as__additional_03",
+          "turnover": 335326753.7841815,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.40671458853901454,
+          "final_equity": 29723.12134710399,
+          "final_equity_std": 3750.4112943189875,
+          "inventory_rms": 0.2823182698776404,
+          "inventory_rms_std": 0.003554346200585349,
+          "net_pnl_bps_turnover": 0.9008230824347201,
+          "params": {
+            "running_penalty": 0.025,
+            "terminal_penalty": 0.5
+          },
+          "realized_trading_fees": 49512.60214824033,
+          "trial": "pure_as__additional_04",
+          "turnover": 330084014.32160217,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3966841538078941,
+          "final_equity": 30130.863143432565,
+          "final_equity_std": 5271.052194975922,
+          "inventory_rms": 0.26027650756527165,
+          "inventory_rms_std": 0.0019587915025594585,
+          "net_pnl_bps_turnover": 0.9363637789763046,
+          "params": {
+            "running_penalty": 0.1,
+            "terminal_penalty": 1.0
+          },
+          "realized_trading_fees": 48289.98967239423,
+          "trial": "pure_as__additional_05",
+          "turnover": 321933264.4826282,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.37878213706287084,
+          "final_equity": 32295.632382818243,
+          "final_equity_std": 4633.664723512544,
+          "inventory_rms": 0.2295358566721092,
+          "inventory_rms_std": 0.0021565982600959834,
+          "net_pnl_bps_turnover": 1.05058661520054,
+          "params": {
+            "running_penalty": 0.2,
+            "terminal_penalty": 2.0
+          },
+          "realized_trading_fees": 46111.20053608361,
+          "trial": "pure_as__additional_06",
+          "turnover": 307408003.5738908,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.32254893833710313,
+          "final_equity": 42902.80666350333,
+          "final_equity_std": 3028.9263602199853,
+          "inventory_rms": 0.16818810670882361,
+          "inventory_rms_std": 0.002608495661740894,
+          "net_pnl_bps_turnover": 1.638552020641542,
+          "params": {
+            "running_penalty": 0.5,
+            "terminal_penalty": 5.0
+          },
+          "realized_trading_fees": 39272.32010893141,
+          "trial": "pure_as__additional_07",
+          "turnover": 261815467.39287615,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.24105964970453445,
+          "final_equity": 46421.07436365275,
+          "final_equity_std": 2615.8185948361634,
+          "inventory_rms": 0.12409010839426415,
+          "inventory_rms_std": 0.0013829896573324054,
+          "net_pnl_bps_turnover": 2.371856598414389,
+          "params": {
+            "running_penalty": 1.0,
+            "terminal_penalty": 10.0
+          },
+          "realized_trading_fees": 29359.230967968586,
+          "trial": "pure_as__additional_08",
+          "turnover": 195728206.45312393,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.01683976173276648,
+          "final_equity": 11815.641191032471,
+          "final_equity_std": 779.8800666888815,
+          "inventory_rms": 0.05883938388256098,
+          "inventory_rms_std": 0.0007366798271378952,
+          "net_pnl_bps_turnover": 8.629003621479928,
+          "params": {
+            "running_penalty": 5.0,
+            "terminal_penalty": 50.0
+          },
+          "realized_trading_fees": 2053.457630765706,
+          "trial": "pure_as__additional_09",
+          "turnover": 13689717.538438043,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0005719834681382707,
+          "final_equity": 433.3673982268427,
+          "final_equity_std": 835.7873280149486,
+          "inventory_rms": 0.043722942519603306,
+          "inventory_rms_std": 0.0033412627111487994,
+          "net_pnl_bps_turnover": 9.977194376265947,
+          "params": {
+            "running_penalty": 10.0,
+            "terminal_penalty": 100.0
+          },
+          "realized_trading_fees": 69.88136125785317,
+          "trial": "pure_as__additional_10",
+          "turnover": 465875.7417190211,
+          "variant": "pure_as"
+        }
+      ],
+      "asset": "BTC",
+      "base_config": "configs\\backtest_btc_hl_l2_holdout_model_variants.yaml",
+      "baseline_as": {
+        "fill_rate": 0.4130312755349762,
+        "final_equity": 28868.418931159027,
+        "final_equity_std": 7640.653591313711,
+        "inventory_rms": 0.2967943232748186,
+        "inventory_rms_std": 0.0017836118919711689,
+        "net_pnl_bps_turnover": 0.8614303147746896,
+        "params": {},
+        "realized_trading_fees": 50285.29356108888,
+        "trial": "pure_as_default",
+        "turnover": 335235290.40725917,
+        "variant": "pure_as"
+      },
+      "hjb_candidates": [
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.431810141694,
+          "final_equity_std": 3338.827250996632,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658328957765311,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 51167.82657322746,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=2.5e-05",
+          "turnover": 341118843.8215164,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432126746768,
+          "final_equity_std": 3338.827247160582,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329050522038,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 51167.82657355993,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=5e-05",
+          "turnover": 341118843.82373285,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432759956922,
+          "final_equity_std": 3338.8272394887167,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329236035496,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 51167.82657422485,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0001",
+          "turnover": 341118843.82816565,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.43402637611,
+          "final_equity_std": 3338.8272241447735,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329607062075,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 51167.826575554696,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0002",
+          "turnover": 341118843.83703136,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.431810141097,
+          "final_equity_std": 3338.8272509966287,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658328957765136,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 51167.826573227474,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=2.5e-05",
+          "turnover": 341118843.8215166,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432126745938,
+          "final_equity_std": 3338.82724716099,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329050521795,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 51167.82657355994,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=5e-05",
+          "turnover": 341118843.823733,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432759956533,
+          "final_equity_std": 3338.827239488952,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329236035376,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 51167.82657422488,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=0.0001",
+          "turnover": 341118843.82816577,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.4340263755,
+          "final_equity_std": 3338.8272241447667,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329607061896,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 51167.82657555471,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=0.0002",
+          "turnover": 341118843.8370315,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.43181013966,
+          "final_equity_std": 3338.827250996487,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658328957764707,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 51167.82657322752,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=2.5e-05",
+          "turnover": 341118843.8215168,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432126744323,
+          "final_equity_std": 3338.827247160881,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329050521314,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 51167.82657355998,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=5e-05",
+          "turnover": 341118843.8237332,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432759954994,
+          "final_equity_std": 3338.8272394889846,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.865832923603492,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 51167.826574224906,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=0.0001",
+          "turnover": 341118843.82816607,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.434026373994,
+          "final_equity_std": 3338.8272241445493,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329607061448,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 51167.826575554755,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=0.0002",
+          "turnover": 341118843.83703166,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.431810135946,
+          "final_equity_std": 3338.827250996478,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658328957763608,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 51167.826573227576,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=2.5e-05",
+          "turnover": 341118843.8215173,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432126741252,
+          "final_equity_std": 3338.827247160844,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.86583290505204,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 51167.82657356005,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=5e-05",
+          "turnover": 341118843.8237337,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.43275995159,
+          "final_equity_std": 3338.8272394883384,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329236033909,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 51167.826574224964,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=0.0001",
+          "turnover": 341118843.82816654,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.43402637043,
+          "final_equity_std": 3338.827224144756,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.865832960706039,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 51167.82657555482,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=0.0002",
+          "turnover": 341118843.83703214,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.431810130056,
+          "final_equity_std": 3338.827250996075,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658328957761858,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 51167.82657322773,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=2.5e-05",
+          "turnover": 341118843.82151824,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.432126734882,
+          "final_equity_std": 3338.827247160639,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329050518511,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 51167.82657356019,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=5e-05",
+          "turnover": 341118843.82373464,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.4327599451,
+          "final_equity_std": 3338.827239488282,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329236031985,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 51167.82657422512,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=0.0001",
+          "turnover": 341118843.82816744,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4203379794654382,
+          "final_equity": 29536.43402636452,
+          "final_equity_std": 3338.8272241444133,
+          "inventory_rms": 0.1845510332701011,
+          "inventory_rms_std": 0.003912841062724391,
+          "net_pnl_bps_turnover": 0.8658329607058637,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 51167.826575554966,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=0.0002",
+          "turnover": 341118843.83703315,
+          "variant": "hjb_fd"
+        }
+      ],
+      "hjb_constraint_feasible": true,
+      "risk_matched_as": {
+        "fill_rate": 0.32254893833710313,
+        "final_equity": 42902.80666350333,
+        "final_equity_std": 3028.9263602199853,
+        "inventory_rms": 0.16818810670882361,
+        "inventory_rms_std": 0.002608495661740894,
+        "net_pnl_bps_turnover": 1.638552020641542,
+        "params": {
+          "running_penalty": 0.5,
+          "terminal_penalty": 5.0
+        },
+        "realized_trading_fees": 39272.32010893141,
+        "trial": "pure_as__additional_07",
+        "turnover": 261815467.39287615,
+        "variant": "pure_as"
+      },
+      "selected_hjb": {
+        "fill_rate": 0.4203379794654382,
+        "final_equity": 29536.43402637611,
+        "final_equity_std": 3338.8272241447735,
+        "inventory_rms": 0.1845510332701011,
+        "inventory_rms_std": 0.003912841062724391,
+        "net_pnl_bps_turnover": 0.8658329607062075,
+        "params": {
+          "running_penalty": 0.0002,
+          "terminal_penalty": 0.00025
+        },
+        "realized_trading_fees": 51167.826575554696,
+        "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0002",
+        "turnover": 341118843.83703136,
+        "variant": "hjb_fd"
+      }
+    },
+    {
+      "as_candidates": [
+        {
+          "fill_rate": 0.4111036148000853,
+          "final_equity": 135472.63882540254,
+          "final_equity_std": 5488.136939777014,
+          "inventory_rms": 147.16157606086549,
+          "inventory_rms_std": 2.855733991819758,
+          "net_pnl_bps_turnover": 5.278179416685061,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 38498.67786936632,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0",
+          "turnover": 256657852.46244222,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4199027057737377,
+          "final_equity": 139362.13575504208,
+          "final_equity_std": 2241.9201809032147,
+          "inventory_rms": 112.01331316687397,
+          "inventory_rms_std": 1.5278591295097812,
+          "net_pnl_bps_turnover": 5.316527085597673,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 39318.4148589846,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=5e-06",
+          "turnover": 262122765.72656402,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4234109793338541,
+          "final_equity": 135443.90755665387,
+          "final_equity_std": 3290.64505629599,
+          "inventory_rms": 57.08755136763732,
+          "inventory_rms_std": 0.6728117265016514,
+          "net_pnl_bps_turnover": 5.124499092876618,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 39645.116515979294,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=2.5e-05",
+          "turnover": 264300776.77319527,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4281194517434842,
+          "final_equity": 123513.8262242657,
+          "final_equity_std": 823.8102391381436,
+          "inventory_rms": 29.395853498149005,
+          "inventory_rms_std": 0.08842563336717496,
+          "net_pnl_bps_turnover": 4.622185066883954,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 40083.025859683825,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0001",
+          "turnover": 267220172.39789215,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42612622209596857,
+          "final_equity": 95983.22876220297,
+          "final_equity_std": 927.310012997107,
+          "inventory_rms": 18.000786268308484,
+          "inventory_rms_std": 0.04624027188406341,
+          "net_pnl_bps_turnover": 3.608064514285195,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 39903.20057384721,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0004",
+          "turnover": 266021337.15898138,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3838138863243614,
+          "final_equity": 82094.04573682658,
+          "final_equity_std": 1076.0897150949277,
+          "inventory_rms": 15.666852563605266,
+          "inventory_rms_std": 0.04527612934194559,
+          "net_pnl_bps_turnover": 3.4266476938979364,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 35936.20676577591,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0016",
+          "turnover": 239574711.77183947,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.33262197287124495,
+          "final_equity": 89915.29096784184,
+          "final_equity_std": 1101.5040675657551,
+          "inventory_rms": 15.091683581801949,
+          "inventory_rms_std": 0.029905706205962786,
+          "net_pnl_bps_turnover": 4.33079873032968,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.0
+          },
+          "realized_trading_fees": 31142.18482414969,
+          "trial": "pure_as__terminal_penalty=0__running_penalty=0.0064",
+          "turnover": 207614565.49433127,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42178349075586485,
+          "final_equity": 135983.5362712619,
+          "final_equity_std": 3430.6249182688775,
+          "inventory_rms": 93.98887854858864,
+          "inventory_rms_std": 1.1664687451601636,
+          "net_pnl_bps_turnover": 5.164672494993409,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 39494.598448708115,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0",
+          "turnover": 263297322.99138752,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42268068082285815,
+          "final_equity": 134460.92794125318,
+          "final_equity_std": 4183.236889017946,
+          "inventory_rms": 77.27389533279114,
+          "inventory_rms_std": 1.0062296104697857,
+          "net_pnl_bps_turnover": 5.095853952859048,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 39579.779462993436,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=5e-06",
+          "turnover": 263865196.41995627,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4237838221717207,
+          "final_equity": 133443.3503007872,
+          "final_equity_std": 2650.959549102139,
+          "inventory_rms": 49.57329243650172,
+          "inventory_rms_std": 0.40476453078470676,
+          "net_pnl_bps_turnover": 5.044630054352557,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 39679.893677266875,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=2.5e-05",
+          "turnover": 264532624.5151125,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4284934782094075,
+          "final_equity": 122742.50185714324,
+          "final_equity_std": 669.1295649061161,
+          "inventory_rms": 28.414736579210363,
+          "inventory_rms_std": 0.0847556401965572,
+          "net_pnl_bps_turnover": 4.589146358298744,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 40119.38660886304,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0001",
+          "turnover": 267462577.3924203,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4252692753829037,
+          "final_equity": 95870.49931731363,
+          "final_equity_std": 878.2547619704899,
+          "inventory_rms": 17.940796587956516,
+          "inventory_rms_std": 0.05186519528989354,
+          "net_pnl_bps_turnover": 3.61119500536316,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 39821.81074002143,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0004",
+          "turnover": 265478738.26680955,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3836813199820089,
+          "final_equity": 82078.25581736237,
+          "final_equity_std": 1111.1407086879094,
+          "inventory_rms": 15.663735308110656,
+          "inventory_rms_std": 0.04549828051311277,
+          "net_pnl_bps_turnover": 3.4271896496079535,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 35923.59141373505,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0016",
+          "turnover": 239490609.4249003,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3325343843950477,
+          "final_equity": 89915.61976143357,
+          "final_equity_std": 1098.3384972098993,
+          "inventory_rms": 15.089868849070154,
+          "inventory_rms_std": 0.030498657354175118,
+          "net_pnl_bps_turnover": 4.3319662185701,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 5e-05
+          },
+          "realized_trading_fees": 31133.925763483123,
+          "trial": "pure_as__terminal_penalty=5e-05__running_penalty=0.0064",
+          "turnover": 207559505.08988753,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4243768198281373,
+          "final_equity": 132154.24077024413,
+          "final_equity_std": 2166.3965011594164,
+          "inventory_rms": 44.44994578257712,
+          "inventory_rms_std": 0.26530069939123857,
+          "net_pnl_bps_turnover": 4.989014162828187,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39734.2917029503,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0",
+          "turnover": 264895278.01966867,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.42463011623227515,
+          "final_equity": 131460.5122274453,
+          "final_equity_std": 2073.95794148253,
+          "inventory_rms": 42.0716475366664,
+          "inventory_rms_std": 0.21216161812797832,
+          "net_pnl_bps_turnover": 4.959329441205063,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39762.0012979303,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=5e-06",
+          "turnover": 265080008.65286875,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4259202708140994,
+          "final_equity": 127977.37782293346,
+          "final_equity_std": 1704.2923501124174,
+          "inventory_rms": 35.474559353492545,
+          "inventory_rms_std": 0.23380381007439183,
+          "net_pnl_bps_turnover": 4.813919811854487,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39877.81286703421,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=2.5e-05",
+          "turnover": 265852085.78022808,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4303565087706839,
+          "final_equity": 118589.36870586612,
+          "final_equity_std": 702.0284539902308,
+          "inventory_rms": 25.24193370821092,
+          "inventory_rms_std": 0.12489542306160417,
+          "net_pnl_bps_turnover": 4.414148888462933,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 40298.269194541404,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0001",
+          "turnover": 268655127.9636094,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.422099519447009,
+          "final_equity": 95337.90208409044,
+          "final_equity_std": 839.5788177079588,
+          "inventory_rms": 17.716776500539858,
+          "inventory_rms_std": 0.05189883610557758,
+          "net_pnl_bps_turnover": 3.617981524477865,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39526.38461187755,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0004",
+          "turnover": 263509230.74585027,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3832220722960017,
+          "final_equity": 82052.14101143101,
+          "final_equity_std": 1087.063223013233,
+          "inventory_rms": 15.654286246942144,
+          "inventory_rms_std": 0.045756993922690184,
+          "net_pnl_bps_turnover": 3.4302248112297242,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 35880.370436303005,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0016",
+          "turnover": 239202469.57535338,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.33223374286864094,
+          "final_equity": 89939.86745396593,
+          "final_equity_std": 1078.258758396738,
+          "inventory_rms": 15.085014561768258,
+          "inventory_rms_std": 0.03057196098298816,
+          "net_pnl_bps_turnover": 4.3369758976540975,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 31106.37270397453,
+          "trial": "pure_as__terminal_penalty=0.00025__running_penalty=0.0064",
+          "turnover": 207375818.02649692,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4306169069431622,
+          "final_equity": 116116.94867907697,
+          "final_equity_std": 563.9190127994895,
+          "inventory_rms": 23.778871781187807,
+          "inventory_rms_std": 0.09064032476050136,
+          "net_pnl_bps_turnover": 4.319597756325455,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 40321.985858828935,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0",
+          "turnover": 268813239.0588596,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4306074379187084,
+          "final_equity": 115695.43908079536,
+          "final_equity_std": 570.9308529986547,
+          "inventory_rms": 23.533416241171835,
+          "inventory_rms_std": 0.09195766151342936,
+          "net_pnl_bps_turnover": 4.304072600467318,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 40320.60530979636,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=5e-06",
+          "turnover": 268804035.3986424,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4308583670667329,
+          "final_equity": 113703.07677955262,
+          "final_equity_std": 423.5734032933314,
+          "inventory_rms": 22.652325233758695,
+          "inventory_rms_std": 0.08656159939816307,
+          "net_pnl_bps_turnover": 4.227934250753881,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 40339.81715500243,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=2.5e-05",
+          "turnover": 268932114.3666829,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.4346672821532561,
+          "final_equity": 103175.63836479624,
+          "final_equity_std": 372.24971356713814,
+          "inventory_rms": 19.912192866292465,
+          "inventory_rms_std": 0.09123075791273491,
+          "net_pnl_bps_turnover": 3.8019843463208867,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 40705.74568281889,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0001",
+          "turnover": 271371637.88545924,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.412100229623843,
+          "final_equity": 92630.0659116862,
+          "final_equity_std": 858.8077015341776,
+          "inventory_rms": 17.04919606774167,
+          "inventory_rms_std": 0.06374444101163897,
+          "net_pnl_bps_turnover": 3.600902564378773,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 38585.89088995765,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0004",
+          "turnover": 257239272.59971768,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3816691522855858,
+          "final_equity": 81975.2609357888,
+          "final_equity_std": 1035.7261769119884,
+          "inventory_rms": 15.63139106718729,
+          "inventory_rms_std": 0.04836312565405942,
+          "net_pnl_bps_turnover": 3.4408578265455048,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 35735.953741763915,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0016",
+          "turnover": 238239691.6117595,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.33098856615297206,
+          "final_equity": 90104.25299192997,
+          "final_equity_std": 1092.9070466548994,
+          "inventory_rms": 15.068135065386437,
+          "inventory_rms_std": 0.03077400448040704,
+          "net_pnl_bps_turnover": 4.361078168564193,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 30990.998987615865,
+          "trial": "pure_as__terminal_penalty=0.001__running_penalty=0.0064",
+          "turnover": 206606659.9174391,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3877340624482163,
+          "final_equity": 82885.06850756324,
+          "final_equity_std": 1004.1513880946148,
+          "inventory_rms": 15.764276179490057,
+          "inventory_rms_std": 0.05176057355104637,
+          "net_pnl_bps_turnover": 3.4247036510310496,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36302.82567769178,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0",
+          "turnover": 242018837.85127854,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.38764410671590555,
+          "final_equity": 82858.10342005757,
+          "final_equity_std": 1023.6376548393696,
+          "inventory_rms": 15.761880690601444,
+          "inventory_rms_std": 0.05253088908630652,
+          "net_pnl_bps_turnover": 3.424375519655096,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36294.48463972178,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=5e-06",
+          "turnover": 241963230.93147856,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.387317425372251,
+          "final_equity": 82768.96695004903,
+          "final_equity_std": 1070.6664705899764,
+          "inventory_rms": 15.75089714231054,
+          "inventory_rms_std": 0.05146000831279369,
+          "net_pnl_bps_turnover": 3.4235674922171966,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36264.00422870327,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=2.5e-05",
+          "turnover": 241760028.19135514,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3862048149989347,
+          "final_equity": 82580.93085951646,
+          "final_equity_std": 1027.7736973397311,
+          "inventory_rms": 15.720811774912516,
+          "inventory_rms_std": 0.050670331644949364,
+          "net_pnl_bps_turnover": 3.4255847468477407,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 36160.401121374205,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0001",
+          "turnover": 241069340.80916142,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.38205264777596293,
+          "final_equity": 82007.49264612678,
+          "final_equity_std": 1077.6600866438228,
+          "inventory_rms": 15.63660037302299,
+          "inventory_rms_std": 0.046576832454511705,
+          "net_pnl_bps_turnover": 3.4387996182322538,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 35771.36895489659,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0004",
+          "turnover": 238475793.03264394,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3685415335085103,
+          "final_equity": 83498.01522021867,
+          "final_equity_std": 1263.750469753635,
+          "inventory_rms": 15.494401072475407,
+          "inventory_rms_std": 0.04707998277000084,
+          "net_pnl_bps_turnover": 3.630102930712635,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 34502.07220331112,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0016",
+          "turnover": 230013814.6887409,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.31949553772222616,
+          "final_equity": 91555.50473896744,
+          "final_equity_std": 977.0071664779011,
+          "inventory_rms": 14.90743589115121,
+          "inventory_rms_std": 0.02347713191433889,
+          "net_pnl_bps_turnover": 4.591113407233912,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.008
+          },
+          "realized_trading_fees": 29912.515733948676,
+          "trial": "pure_as__terminal_penalty=0.008__running_penalty=0.0064",
+          "turnover": 199416771.55965787,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3436723244087778,
+          "final_equity": 88403.44372316035,
+          "final_equity_std": 1188.2651526793738,
+          "inventory_rms": 15.2261159162621,
+          "inventory_rms_std": 0.03778291808124401,
+          "net_pnl_bps_turnover": 4.121042651069043,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 32176.950348817027,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0",
+          "turnover": 214513002.32544684,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3436155102620552,
+          "final_equity": 88410.90935357478,
+          "final_equity_std": 1204.9411824001756,
+          "inventory_rms": 15.225046478329313,
+          "inventory_rms_std": 0.03804431168805811,
+          "net_pnl_bps_turnover": 4.122126633025756,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 32171.178119876007,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=5e-06",
+          "turnover": 214474520.79917344,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3433977226996189,
+          "final_equity": 88433.24777194136,
+          "final_equity_std": 1205.5506374382728,
+          "inventory_rms": 15.222422044516259,
+          "inventory_rms_std": 0.038248656938914286,
+          "net_pnl_bps_turnover": 4.125807421614812,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 32150.63014080491,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=2.5e-05",
+          "turnover": 214337534.27203277,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3426638733044528,
+          "final_equity": 88559.94056835375,
+          "final_equity_std": 1142.3207840742893,
+          "inventory_rms": 15.214351359092982,
+          "inventory_rms_std": 0.03894177507832155,
+          "net_pnl_bps_turnover": 4.140401470244375,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 32083.174300866096,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0001",
+          "turnover": 213887828.67244062,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.33939469261179367,
+          "final_equity": 89009.00414975568,
+          "final_equity_std": 1128.1641153258292,
+          "inventory_rms": 15.174236384798979,
+          "inventory_rms_std": 0.037310977492711075,
+          "net_pnl_bps_turnover": 4.201448803089901,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 31777.35535875,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0004",
+          "turnover": 211849035.725,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3272293634448311,
+          "final_equity": 90458.63484041777,
+          "final_equity_std": 1059.882029173365,
+          "inventory_rms": 15.020536427396546,
+          "inventory_rms_std": 0.030566829091987525,
+          "net_pnl_bps_turnover": 4.428594280328978,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 30638.565499451237,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0016",
+          "turnover": 204257103.32967493,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.2806476812726369,
+          "final_equity": 93873.07221973834,
+          "final_equity_std": 842.6153830989113,
+          "inventory_rms": 14.287243769285926,
+          "inventory_rms_std": 0.01585357594562393,
+          "net_pnl_bps_turnover": 5.358563517834736,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.032
+          },
+          "realized_trading_fees": 26276.877755617024,
+          "trial": "pure_as__terminal_penalty=0.032__running_penalty=0.0064",
+          "turnover": 175179185.03744686,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.1978221243756362,
+          "final_equity": 88234.74631309377,
+          "final_equity_std": 659.0238599277988,
+          "inventory_rms": 12.394848458182514,
+          "inventory_rms_std": 0.03830675209921841,
+          "net_pnl_bps_turnover": 7.14341925788802,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 18527.429313956793,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0",
+          "turnover": 123516195.42637864,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.1977795137655943,
+          "final_equity": 88227.22104841578,
+          "final_equity_std": 673.7631386759698,
+          "inventory_rms": 12.393715305071584,
+          "inventory_rms_std": 0.037947292424583466,
+          "net_pnl_bps_turnover": 7.144414374434815,
+          "params": {
+            "running_penalty": 5e-06,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 18523.257646445232,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=5e-06",
+          "turnover": 123488384.30963488,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.19760433681319983,
+          "final_equity": 88199.84446444456,
+          "final_equity_std": 674.896393479277,
+          "inventory_rms": 12.389656116927807,
+          "inventory_rms_std": 0.03781501387904116,
+          "net_pnl_bps_turnover": 7.148695605781898,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 18506.430160711247,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=2.5e-05",
+          "turnover": 123376201.07140832,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.19704092985820135,
+          "final_equity": 88139.95522397914,
+          "final_equity_std": 635.8133608141735,
+          "inventory_rms": 12.373281509358014,
+          "inventory_rms_std": 0.03928671370450175,
+          "net_pnl_bps_turnover": 7.164418293748662,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 18453.313601591315,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0001",
+          "turnover": 123022090.67727545,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.19461212508581302,
+          "final_equity": 87708.0585592961,
+          "final_equity_std": 623.8382002110224,
+          "inventory_rms": 12.305475838977,
+          "inventory_rms_std": 0.039374447394469936,
+          "net_pnl_bps_turnover": 7.217738003062413,
+          "params": {
+            "running_penalty": 0.0004,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 18227.200165225142,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0004",
+          "turnover": 121514667.76816761,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.18524962715716214,
+          "final_equity": 85952.61874115195,
+          "final_equity_std": 552.5106620305942,
+          "inventory_rms": 12.04129281241763,
+          "inventory_rms_std": 0.0461567133921265,
+          "net_pnl_bps_turnover": 7.431499983253014,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 17348.83948954411,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0016",
+          "turnover": 115658929.93029407,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.15104869445825345,
+          "final_equity": 78591.42565785519,
+          "final_equity_std": 584.5013868828013,
+          "inventory_rms": 10.983900264483776,
+          "inventory_rms_std": 0.037795523667476516,
+          "net_pnl_bps_turnover": 8.329951917824111,
+          "params": {
+            "running_penalty": 0.0064,
+            "terminal_penalty": 0.128
+          },
+          "realized_trading_fees": 14151.991000347207,
+          "trial": "pure_as__terminal_penalty=0.128__running_penalty=0.0064",
+          "turnover": 94346606.66898139,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3617924863290959,
+          "final_equity": 85002.50644753812,
+          "final_equity_std": 1164.5502199927223,
+          "inventory_rms": 15.429857404548352,
+          "inventory_rms_std": 0.04802966804908553,
+          "net_pnl_bps_turnover": 3.764133592308876,
+          "params": {
+            "running_penalty": 0.0016,
+            "terminal_penalty": 0.012
+          },
+          "realized_trading_fees": 33872.99731689588,
+          "trial": "pure_as__additional_01",
+          "turnover": 225819982.11263925,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.3713952607532609,
+          "final_equity": 82894.25865569292,
+          "final_equity_std": 1264.2519273148598,
+          "inventory_rms": 15.517882533154133,
+          "inventory_rms_std": 0.043167647918502514,
+          "net_pnl_bps_turnover": 3.5759440235723945,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.016
+          },
+          "realized_trading_fees": 34771.27092446416,
+          "trial": "pure_as__additional_02",
+          "turnover": 231808472.8297611,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.36442960963946686,
+          "final_equity": 84393.51260200725,
+          "final_equity_std": 1175.296876170822,
+          "inventory_rms": 15.454870654158096,
+          "inventory_rms_std": 0.04521302575419244,
+          "net_pnl_bps_turnover": 3.710384283046531,
+          "params": {
+            "running_penalty": 0.0,
+            "terminal_penalty": 0.02
+          },
+          "realized_trading_fees": 34117.475086045815,
+          "trial": "pure_as__additional_03",
+          "turnover": 227449833.90697208,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.001690220864995384,
+          "final_equity": 2609.388151319005,
+          "final_equity_std": 199.36069723739857,
+          "inventory_rms": 1.1938041811462496,
+          "inventory_rms_std": 0.05682121627940161,
+          "net_pnl_bps_turnover": 24.72541980979568,
+          "params": {
+            "running_penalty": 0.025,
+            "terminal_penalty": 0.5
+          },
+          "realized_trading_fees": 158.22861291795874,
+          "trial": "pure_as__additional_04",
+          "turnover": 1054857.4194530582,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 0.1,
+            "terminal_penalty": 1.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_05",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 0.2,
+            "terminal_penalty": 2.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_06",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 0.5,
+            "terminal_penalty": 5.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_07",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 1.0,
+            "terminal_penalty": 10.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_08",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 5.0,
+            "terminal_penalty": 50.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_09",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        },
+        {
+          "fill_rate": 0.0,
+          "final_equity": 0.0,
+          "final_equity_std": 0.0,
+          "inventory_rms": 0.0,
+          "inventory_rms_std": 0.0,
+          "net_pnl_bps_turnover": null,
+          "params": {
+            "running_penalty": 10.0,
+            "terminal_penalty": 100.0
+          },
+          "realized_trading_fees": 0.0,
+          "trial": "pure_as__additional_10",
+          "turnover": 0.0,
+          "variant": "pure_as"
+        }
+      ],
+      "asset": "SOL",
+      "base_config": "configs\\backtest_sol_hl_l2_holdout_model_variants.yaml",
+      "baseline_as": {
+        "fill_rate": 0.4346672821532561,
+        "final_equity": 103175.63836479624,
+        "final_equity_std": 372.24971356713814,
+        "inventory_rms": 19.912192866292465,
+        "inventory_rms_std": 0.09123075791273491,
+        "net_pnl_bps_turnover": 3.8019843463208867,
+        "params": {},
+        "realized_trading_fees": 40705.74568281889,
+        "trial": "pure_as_default",
+        "turnover": 271371637.88545924,
+        "variant": "pure_as"
+      },
+      "hjb_candidates": [
+        {
+          "fill_rate": 0.4176644651184812,
+          "final_equity": 136997.8526583498,
+          "final_equity_std": 5855.19508263857,
+          "inventory_rms": 88.39683136125578,
+          "inventory_rms_std": 1.4905433035254887,
+          "net_pnl_bps_turnover": 5.254507165596577,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39111.43025098281,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=2.5e-05",
+          "turnover": 260742868.3398854,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4175046753308241,
+          "final_equity": 137047.0457521397,
+          "final_equity_std": 4347.021270513066,
+          "inventory_rms": 86.0365899774799,
+          "inventory_rms_std": 0.8915212528620015,
+          "net_pnl_bps_turnover": 5.258344850599831,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39095.37762377011,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=5e-05",
+          "turnover": 260635850.8251341,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.41700755154700186,
+          "final_equity": 135565.42208012557,
+          "final_equity_std": 2401.95560100652,
+          "inventory_rms": 81.45306032033204,
+          "inventory_rms_std": 0.9241298137783923,
+          "net_pnl_bps_turnover": 5.207446375837087,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 39049.57408816336,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0001",
+          "turnover": 260330493.92108908,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4162239897734536,
+          "final_equity": 137549.1737272606,
+          "final_equity_std": 3934.384800676966,
+          "inventory_rms": 74.62876575645103,
+          "inventory_rms_std": 1.0110884364922665,
+          "net_pnl_bps_turnover": 5.293675742575864,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.00025
+          },
+          "realized_trading_fees": 38974.54571131002,
+          "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0002",
+          "turnover": 259830304.74206686,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4176644651184812,
+          "final_equity": 136997.85265742155,
+          "final_equity_std": 5855.195082919084,
+          "inventory_rms": 88.39683136125578,
+          "inventory_rms_std": 1.4905433035254887,
+          "net_pnl_bps_turnover": 5.254507165548384,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 39111.43025107724,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=2.5e-05",
+          "turnover": 260742868.340515,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4175046753308241,
+          "final_equity": 137047.0457517154,
+          "final_equity_std": 4347.02127050433,
+          "inventory_rms": 86.0365899774799,
+          "inventory_rms_std": 0.8915212528620015,
+          "net_pnl_bps_turnover": 5.258344850577087,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 39095.37762381849,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=5e-05",
+          "turnover": 260635850.82545656,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.41700755154700186,
+          "final_equity": 135565.42208004248,
+          "final_equity_std": 2401.9556009729276,
+          "inventory_rms": 81.45306032033204,
+          "inventory_rms_std": 0.9241298137783923,
+          "net_pnl_bps_turnover": 5.207446375832221,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 39049.574088176,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=0.0001",
+          "turnover": 260330493.92117333,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4162239897734536,
+          "final_equity": 137549.17372725788,
+          "final_equity_std": 3934.3848006751396,
+          "inventory_rms": 74.62876575645103,
+          "inventory_rms_std": 1.0110884364922665,
+          "net_pnl_bps_turnover": 5.293675742575638,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.0005
+          },
+          "realized_trading_fees": 38974.54571131091,
+          "trial": "hjb_fd__terminal_penalty=0.0005__running_penalty=0.0002",
+          "turnover": 259830304.74207276,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4176644651184812,
+          "final_equity": 136997.85265678418,
+          "final_equity_std": 5855.195083111942,
+          "inventory_rms": 88.39683136125578,
+          "inventory_rms_std": 1.4905433035254887,
+          "net_pnl_bps_turnover": 5.254507165515264,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 39111.43025114227,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=2.5e-05",
+          "turnover": 260742868.3409485,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4175046753308241,
+          "final_equity": 137047.04575142177,
+          "final_equity_std": 4347.021270499878,
+          "inventory_rms": 86.0365899774799,
+          "inventory_rms_std": 0.8915212528620015,
+          "net_pnl_bps_turnover": 5.258344850561359,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 39095.377623851884,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=5e-05",
+          "turnover": 260635850.8256792,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.41700755154700186,
+          "final_equity": 135565.42207998355,
+          "final_equity_std": 2401.9556009489033,
+          "inventory_rms": 81.45306032033204,
+          "inventory_rms_std": 0.9241298137783923,
+          "net_pnl_bps_turnover": 5.207446375828792,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 39049.574088184774,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=0.0001",
+          "turnover": 260330493.92123184,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4162239897734536,
+          "final_equity": 137549.1737272558,
+          "final_equity_std": 3934.3848006741405,
+          "inventory_rms": 74.62876575645103,
+          "inventory_rms_std": 1.0110884364922665,
+          "net_pnl_bps_turnover": 5.2936757425754735,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.001
+          },
+          "realized_trading_fees": 38974.545711311526,
+          "trial": "hjb_fd__terminal_penalty=0.001__running_penalty=0.0002",
+          "turnover": 259830304.74207693,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4176644651184812,
+          "final_equity": 136997.85265632297,
+          "final_equity_std": 5855.195083250978,
+          "inventory_rms": 88.39683136125578,
+          "inventory_rms_std": 1.4905433035254887,
+          "net_pnl_bps_turnover": 5.254507165491314,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 39111.43025118924,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=2.5e-05",
+          "turnover": 260742868.34126157,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4175046753308241,
+          "final_equity": 137047.04575120978,
+          "final_equity_std": 4347.0212704951155,
+          "inventory_rms": 86.0365899774799,
+          "inventory_rms_std": 0.8915212528620015,
+          "net_pnl_bps_turnover": 5.258344850549996,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 39095.377623876055,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=5e-05",
+          "turnover": 260635850.82584038,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.41700755154700186,
+          "final_equity": 135565.42207994082,
+          "final_equity_std": 2401.9556009325065,
+          "inventory_rms": 81.45306032033204,
+          "inventory_rms_std": 0.9241298137783923,
+          "net_pnl_bps_turnover": 5.207446375826306,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 39049.57408819116,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=0.0001",
+          "turnover": 260330493.92127442,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4162239897734536,
+          "final_equity": 137549.17372725354,
+          "final_equity_std": 3934.3848006739886,
+          "inventory_rms": 74.62876575645103,
+          "inventory_rms_std": 1.0110884364922665,
+          "net_pnl_bps_turnover": 5.293675742575326,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.002
+          },
+          "realized_trading_fees": 38974.54571131199,
+          "trial": "hjb_fd__terminal_penalty=0.002__running_penalty=0.0002",
+          "turnover": 259830304.74207997,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4176644651184812,
+          "final_equity": 136997.85265594843,
+          "final_equity_std": 5855.195083364187,
+          "inventory_rms": 88.39683136125578,
+          "inventory_rms_std": 1.4905433035254887,
+          "net_pnl_bps_turnover": 5.254507165471899,
+          "params": {
+            "running_penalty": 2.5e-05,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 39111.4302512271,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=2.5e-05",
+          "turnover": 260742868.34151402,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4175046753308241,
+          "final_equity": 137047.0457510363,
+          "final_equity_std": 4347.021270491522,
+          "inventory_rms": 86.0365899774799,
+          "inventory_rms_std": 0.8915212528620015,
+          "net_pnl_bps_turnover": 5.258344850540729,
+          "params": {
+            "running_penalty": 5e-05,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 39095.37762389558,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=5e-05",
+          "turnover": 260635850.8259706,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.41700755154700186,
+          "final_equity": 135565.4220799065,
+          "final_equity_std": 2401.955600919065,
+          "inventory_rms": 81.45306032033204,
+          "inventory_rms_std": 0.9241298137783923,
+          "net_pnl_bps_turnover": 5.207446375824302,
+          "params": {
+            "running_penalty": 0.0001,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 39049.57408819634,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=0.0001",
+          "turnover": 260330493.92130893,
+          "variant": "hjb_fd"
+        },
+        {
+          "fill_rate": 0.4162239897734536,
+          "final_equity": 137549.1737272523,
+          "final_equity_std": 3934.384800674226,
+          "inventory_rms": 74.62876575645103,
+          "inventory_rms_std": 1.0110884364922665,
+          "net_pnl_bps_turnover": 5.2936757425752266,
+          "params": {
+            "running_penalty": 0.0002,
+            "terminal_penalty": 0.004
+          },
+          "realized_trading_fees": 38974.54571131237,
+          "trial": "hjb_fd__terminal_penalty=0.004__running_penalty=0.0002",
+          "turnover": 259830304.7420825,
+          "variant": "hjb_fd"
+        }
+      ],
+      "hjb_constraint_feasible": false,
+      "risk_matched_as": {
+        "fill_rate": 0.42268068082285815,
+        "final_equity": 134460.92794125318,
+        "final_equity_std": 4183.236889017946,
+        "inventory_rms": 77.27389533279114,
+        "inventory_rms_std": 1.0062296104697857,
+        "net_pnl_bps_turnover": 5.095853952859048,
+        "params": {
+          "running_penalty": 5e-06,
+          "terminal_penalty": 5e-05
+        },
+        "realized_trading_fees": 39579.779462993436,
+        "trial": "pure_as__terminal_penalty=5e-05__running_penalty=5e-06",
+        "turnover": 263865196.41995627,
+        "variant": "pure_as"
+      },
+      "selected_hjb": {
+        "fill_rate": 0.4162239897734536,
+        "final_equity": 137549.1737272606,
+        "final_equity_std": 3934.384800676966,
+        "inventory_rms": 74.62876575645103,
+        "inventory_rms_std": 1.0110884364922665,
+        "net_pnl_bps_turnover": 5.293675742575864,
+        "params": {
+          "running_penalty": 0.0002,
+          "terminal_penalty": 0.00025
+        },
+        "realized_trading_fees": 38974.54571131002,
+        "trial": "hjb_fd__terminal_penalty=0.00025__running_penalty=0.0002",
+        "turnover": 259830304.74206686,
+        "variant": "hjb_fd"
+      }
+    }
+  ],
+  "design": "configs\\final_holdout_2026_design.yaml",
+  "development_end_time": "2025-12-31T23:59:00Z",
+  "development_start_time": "2025-10-16T00:00:00Z",
+  "seeds": [
+    3,
+    7,
+    11,
+    19,
+    23
+  ]
+}

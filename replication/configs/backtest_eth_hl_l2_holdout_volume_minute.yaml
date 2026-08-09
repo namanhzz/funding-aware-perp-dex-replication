@@ -1,0 +1,17 @@
+coin: ETH
+price_path: data/clean/hyperliquid_l2_panel_1m.parquet
+funding_path: data/clean/eth-funding-1h.parquet
+calibration_path: results/calibration-eth.json
+fill_intensity_path: results/fill-intensity-eth-volume-minute-1eth-train.json
+start_time: "2025-11-26T00:00:00Z"
+end_time: "2025-12-31T23:59:00Z"
+run_name: holdout-eth-hl-l2-volume-minute-20251126-20251231
+events_dir: results/backtest-events
+initial_cash: 0.0
+initial_inventory: 0.0
+inventory_limit: 10.0
+quote_size: 1.0
+tick_size: 0.01
+terminal_penalty: 0.001
+running_penalty: 0.0001
+seed: 7

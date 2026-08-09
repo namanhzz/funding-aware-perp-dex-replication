@@ -1,0 +1,165 @@
+{
+  "coin": "BTC",
+  "converged": true,
+  "distance_counts": [
+    {
+      "distance_bps": 0.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 113277,
+      "intensity_per_hour": 58.58397620997285,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 0.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 112688,
+      "intensity_per_hour": 58.279360427530925,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 1.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 57401,
+      "intensity_per_hour": 29.68633366375038,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 1.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 58106,
+      "intensity_per_hour": 30.050941688574753,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 2.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 40879,
+      "intensity_per_hour": 21.14157652027755,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 2.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 41292,
+      "intensity_per_hour": 21.35516959013921,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 5.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 14895,
+      "intensity_per_hour": 7.7033142266086285,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 5.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 14776,
+      "intensity_per_hour": 7.641770460716287,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 10.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 3379,
+      "intensity_per_hour": 1.7475326466405208,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 10.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 3342,
+      "intensity_per_hour": 1.7283971900185322,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 20.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 468,
+      "intensity_per_hour": 0.24203766754299014,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 20.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 446,
+      "intensity_per_hour": 0.2306598284704564,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 50.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 47,
+      "intensity_per_hour": 0.02430720165495841,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 50.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 52,
+      "intensity_per_hour": 0.02689307417144335,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 100.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 26,
+      "intensity_per_hour": 0.013446537085721674,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 100.0,
+      "exposure_hours": 1933.5833333333333,
+      "exposure_minutes": 116015,
+      "hits": 20,
+      "intensity_per_hour": 0.010343490065939749,
+      "side": "bid"
+    }
+  ],
+  "distance_grid_bps": [
+    0.0,
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    50.0,
+    100.0
+  ],
+  "end_date": "20251015",
+  "exposure_hours_per_side": 1933.5833333333333,
+  "exposure_minutes": 116015,
+  "fit_mode": "minute_hit",
+  "hours": "0-23",
+  "intensity_k_bps": 0.5743456379925105,
+  "intensity_k_price": 0.05000288501403943,
+  "lambda_base_per_hour": 110.09172699719387,
+  "local_only": true,
+  "log_likelihood": -515625.5883666971,
+  "median_mid": 114862.5,
+  "missing_hours": 8,
+  "no_panel_hours": 0,
+  "observations": 16,
+  "panel": "data\\clean\\hyperliquid_l2_panel_1m.parquet",
+  "processed_hours": 1936,
+  "quote_size": 0.05,
+  "raw_dir": "data\\raw\\hyperliquid-s3-node-fills",
+  "source": "official Hyperliquid S3 node_fills_by_block crossed fills",
+  "start_date": "20250727",
+  "total_hits": 461094
+}

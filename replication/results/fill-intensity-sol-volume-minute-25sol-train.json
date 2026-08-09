@@ -1,0 +1,165 @@
+{
+  "coin": "SOL",
+  "converged": true,
+  "distance_counts": [
+    {
+      "distance_bps": 0.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 95582,
+      "intensity_per_hour": 49.40914965107263,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 0.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 96190,
+      "intensity_per_hour": 49.72344275006461,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 1.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 77796,
+      "intensity_per_hour": 40.215042646678725,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 1.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 79352,
+      "intensity_per_hour": 41.01938485396743,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 2.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 67028,
+      "intensity_per_hour": 34.6487464461101,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 2.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 68459,
+      "intensity_per_hour": 35.38847247350736,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 5.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 42270,
+      "intensity_per_hour": 21.85060739209098,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 5.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 42938,
+      "intensity_per_hour": 22.19591625743086,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 10.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 18908,
+      "intensity_per_hour": 9.77410183509951,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 10.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 19185,
+      "intensity_per_hour": 9.91729128973895,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 20.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 4264,
+      "intensity_per_hour": 2.2041871284569656,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 20.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 4273,
+      "intensity_per_hour": 2.2088394934091498,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 50.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 283,
+      "intensity_per_hour": 0.14629103127423107,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 50.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 293,
+      "intensity_per_hour": 0.15146032566554665,
+      "side": "bid"
+    },
+    {
+      "distance_bps": 100.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 62,
+      "intensity_per_hour": 0.032049625226156626,
+      "side": "ask"
+    },
+    {
+      "distance_bps": 100.0,
+      "exposure_hours": 1934.5,
+      "exposure_minutes": 116070,
+      "hits": 71,
+      "intensity_per_hour": 0.03670199017834066,
+      "side": "bid"
+    }
+  ],
+  "distance_grid_bps": [
+    0.0,
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    50.0,
+    100.0
+  ],
+  "end_date": "20251015",
+  "exposure_hours_per_side": 1934.5,
+  "exposure_minutes": 116070,
+  "fit_mode": "volume_minute",
+  "hours": "0-23",
+  "intensity_k_bps": 0.20447649017438832,
+  "intensity_k_price": 10.058117030639629,
+  "lambda_base_per_hour": 86.6402906740685,
+  "local_only": true,
+  "log_likelihood": -716872.7309820629,
+  "median_mid": 203.295,
+  "missing_hours": 8,
+  "no_panel_hours": 0,
+  "observations": 16,
+  "panel": "data\\clean\\hyperliquid_l2_panel_1m.parquet",
+  "processed_hours": 1936,
+  "quote_size": 25.0,
+  "raw_dir": "data\\raw\\hyperliquid-s3-node-fills",
+  "source": "official Hyperliquid S3 node_fills_by_block crossed fills",
+  "start_date": "20250727",
+  "total_hits": 616954
+}

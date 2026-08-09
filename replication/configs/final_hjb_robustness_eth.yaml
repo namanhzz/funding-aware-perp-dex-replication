@@ -1,0 +1,21 @@
+start_time: "2025-11-26T00:00:00Z"
+end_time: "2025-12-31T23:59:00Z"
+seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+assets:
+  - asset: ETH
+    base_config: configs/backtest_eth_hl_l2_holdout_model_variants.yaml
+    trials:
+      - name: pure_as
+        variant: pure_as
+        params: {}
+      - name: hjb_fd_selected
+        variant: hjb_fd
+        params:
+          terminal_penalty: 0.0005
+          running_penalty: 0.0001
+      - name: risk_calibrated_selected
+        variant: risk_calibrated
+        params:
+          risk_widening: 1.5
+          risk_skew_cap: 0.5

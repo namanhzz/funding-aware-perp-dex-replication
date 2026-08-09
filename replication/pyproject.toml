@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perp-mm-funding"
+version = "0.1.0"
+description = "Funding-aware perpetual DEX market making research pipeline."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "boto3>=1.34",
+  "duckdb>=1.1",
+  "httpx>=0.27",
+  "lz4>=4.3",
+  "matplotlib>=3.8",
+  "numba>=0.59",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "pyarrow>=14",
+  "pydantic>=2",
+  "pytest>=8",
+  "pyyaml>=6",
+  "scipy>=1.11",
+  "seaborn>=0.13",
+  "statsmodels>=0.14",
+  "tqdm>=4.66",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyter>=1.0", "ipykernel>=6"]
+
+[project.scripts]
+perp-fetch = "perp_mm_funding.fetch_data:app"
+perp-data-quality = "perp_mm_funding.data_quality:app"
+perp-phase0 = "perp_mm_funding.phase0_probe:app"
+perp-calibrate = "perp_mm_funding.run_calibration:app"
+perp-backtest = "perp_mm_funding.run_backtest:app"
+perp-s3-fills = "perp_mm_funding.s3_fills:app"
+perp-l2-quality = "perp_mm_funding.l2_quality:app"
+perp-fill-intensity = "perp_mm_funding.fill_intensity:app"
+perp-official-fills-cache = "perp_mm_funding.official_fills_cache:app"
+perp-variant-sweep = "perp_mm_funding.run_variant_sweep:app"
+perp-final-robustness = "perp_mm_funding.run_final_robustness:app"
+perp-paper-figures = "perp_mm_funding.paper_figures:app"
+perp-stress-windows = "perp_mm_funding.run_stress_windows:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

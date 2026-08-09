@@ -1,0 +1,45 @@
+coin: ETH
+price_path: data/clean/hyperliquid_l2_panel_1m.parquet
+funding_path: data/clean/eth-funding-1h.parquet
+calibration_path: results/calibration-eth.json
+fill_intensity_path: results/fill-intensity-eth-volume-minute-1eth-train.json
+start_time: "2025-11-26T00:00:00Z"
+end_time: "2025-12-31T23:59:00Z"
+run_name: holdout-eth-hl-l2-model-variants-20251126-20251231
+events_dir: results/backtest-events
+
+funding_signal_mode: cash
+funding_state_price_scale: median
+control_horizon_hours: 6
+policy_time_mode: rolling
+enable_model_variants: true
+
+initial_cash: 0.0
+initial_inventory: 0.0
+inventory_limit: 10.0
+quote_size: 1.0
+tick_size: 0.01
+terminal_penalty: 0.001
+running_penalty: 0.0001
+seed: 7
+
+explicit_s_control_horizon_hours: 6
+explicit_s_max_funding_skew: 0.5
+
+hjb_fd_funding_signal_mode: cash
+hjb_fd_n_f: 31
+hjb_fd_n_t: 2048
+hjb_fd_boundary_delta: 1000000.0
+
+regime_gate_signal_mode: fractional
+regime_gate_threshold: 0.0000125
+regime_gate_mode: positive
+
+carry_target_inventory_per_cash_funding: 25.0
+carry_max_target_inventory: 5.0
+carry_skew_per_inventory: 0.05
+carry_max_skew: 0.5
+
+risk_soft_limit_fraction: 0.5
+risk_widening: 1.0
+risk_skew_cap: 0.5

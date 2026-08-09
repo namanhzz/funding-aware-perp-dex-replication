@@ -1,0 +1,61 @@
+{
+  "calibration_gate": "pivot_to_ou_jumps",
+  "ou": {
+    "dt_mean_hours": 0.9999999952841166,
+    "half_life_hours": 2.3104494547073715,
+    "kappa": 0.300005342747364,
+    "log_likelihood": 83110.22550471245,
+    "n_obs": 9072,
+    "sigma": 2.9280161388292017e-05,
+    "theta": 1.1521290591682468e-05
+  },
+  "ou_jump_diagnostic": {
+    "jump_count": 24,
+    "jump_fraction": 0.0026457942894939916,
+    "jump_intensity_per_hour": 0.002645794301971249,
+    "jump_mean": -7.84439296563675e-05,
+    "jump_std": 0.0004464835671455664,
+    "non_jump_residual_std": 1.1102122509382753e-05,
+    "threshold_z": 3.0,
+    "total_transitions": 9071
+  },
+  "ou_jump_mle": {
+    "aic": -180508.0204730209,
+    "bic": -180465.34344627723,
+    "converged": true,
+    "dt_mean_hours": 0.9999999952841166,
+    "jump_intensity_per_hour": 0.0015545001912765173,
+    "jump_mean": -1.0162966226792173e-05,
+    "jump_sigma": 0.0006473197117101652,
+    "kappa": 0.3672372088080191,
+    "likelihood_improvement": 7149.784731798005,
+    "log_likelihood": 90260.01023651045,
+    "n_obs": 9072,
+    "ou_log_likelihood": 83110.22550471245,
+    "posterior_jump_count": 96.062164463036,
+    "sigma": 1.279537798566174e-05,
+    "theta": 1.1911799911455297e-05
+  },
+  "price_coin": "SOL",
+  "price_file": "data\\clean\\hyperliquid_l2_panel_1m.parquet",
+  "rho_funding_price": -0.015054878768563257,
+  "rho_observations": 9687,
+  "shifted_cir": {
+    "kappa": 0.3000099705767255,
+    "shift": 0.0020514118,
+    "sigma": 0.06686892042495383,
+    "theta": 0.002062933047553042,
+    "warning": "Funding can be negative; this is a shifted-CIR robustness diagnostic, not a literal CIR fit."
+  },
+  "standardized_residuals": {
+    "excess_kurtosis": 4816.642502305374,
+    "jarque_bera_pvalue": 0.0,
+    "jarque_bera_stat": 8764212932.390797,
+    "mean": 7.155418825946855e-07,
+    "skew": -58.812294734471614,
+    "std": 1.0000551362958283
+  },
+  "test_log_likelihood": 37305.91189320228,
+  "test_rows": 3888,
+  "train_rows": 9072
+}

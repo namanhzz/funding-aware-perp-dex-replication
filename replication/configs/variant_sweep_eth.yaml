@@ -1,0 +1,21 @@
+base_config: configs/backtest_eth_hl_l2_holdout_model_variants.yaml
+
+validation_start_time: "2025-10-16T00:00:00Z"
+validation_end_time: "2025-11-25T23:59:00Z"
+holdout_start_time: "2025-11-26T00:00:00Z"
+holdout_end_time: "2025-12-31T23:59:00Z"
+
+selection_metric: final_equity
+top_n_per_variant: 1
+seeds: [3, 7, 11]
+
+grids:
+  risk_calibrated:
+    risk_widening: [0.5, 1.0, 1.5]
+    risk_skew_cap: [0.25, 0.5]
+  carry_overlay:
+    carry_target_inventory_per_cash_funding: [10.0, 25.0, 50.0]
+    carry_max_skew: [0.25, 0.5]
+  hjb_fd:
+    terminal_penalty: [0.0005, 0.001, 0.002]
+    running_penalty: [0.00005, 0.0001]
